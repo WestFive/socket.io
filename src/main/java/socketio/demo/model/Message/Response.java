@@ -1,11 +1,22 @@
-package socketio.demo.model;
+package socketio.demo.model.Message;
 
 import org.omg.CORBA.Object;
 
 public class Response<T> {
     private Integer code;
     private String message;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    private String title;
     private T data;
+
 
     public Integer getCode() {
         return code;

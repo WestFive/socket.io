@@ -1,4 +1,4 @@
-package socketio.demo.model;
+package socketio.demo.model.Connection;
 
 import java.util.List;
 

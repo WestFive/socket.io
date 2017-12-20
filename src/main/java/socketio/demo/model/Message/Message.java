@@ -1,4 +1,4 @@
-package socketio.demo.model;
+package socketio.demo.model.Message;
 
 public class Message {
     private String userName;

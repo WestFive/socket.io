@@ -55,13 +55,12 @@
         socket.on("serverResponse",function (data) {
             console.log(data);
         });
+        //池列表单独监听
+        socket.on("listenPools",function (data) {
+           console.log(data)
+        });
 
         socket.on('connect', function() {
-            socket.on(document.getElementById('username').value,function (data) {
-                console.log(data);
-                var html='<li class="list-group-item">'+new Date()+'-'+data.message+'</li>';
-                $('#scrolld').append(html);
-            });
             socket.emit("authentication",document.getElementById('username').value);
             socket.on('sessionList',function (data) {
                 $('#list').empty();
@@ -71,6 +70,11 @@
                 }
                 $('#list').append(html);
             });
+            socket.on("p2p",function (data) {
+                console.log(data);
+                var html='<li class="list-group-item">'+new Date()+'-'+data+'</li>';
+                $('#scrolld').append(html);
+            });
 
         });
     }
@@ -79,10 +83,17 @@
     }
     function allsend(){
         socket.emit("boardCast",{"userName":document.getElementById('username').value,"message":document.getElementById('text').value});
+        socket.emit("createPool",{"poolName":"123","poolMode":"public","queueSortColumn":"updateTime","forceOverWrite":false});
+        socket.emit("pullPool","123");
+        //socket.emit("pushPool",) 拿出一个池对象推送。
+        socket.emit("clonePool",{"sourcePoolName":"123","destPoolName":"456","creator":"system"});
+        socket.emit("flushPool","456");
+        socket.emit("destoryPool","456");
     }
     function send() {
         console.log($('#user').text());
         socket.emit("p2p",{"sender":document.getElementById('username').value,"receiver":$('#user').text(),"message":document.getElementById('text').value});
+
 
     }
 

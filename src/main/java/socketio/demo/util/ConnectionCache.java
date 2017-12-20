@@ -1,7 +1,7 @@
 package socketio.demo.util;
 
-import socketio.demo.model.Connection;
-import socketio.demo.model.Response;
+import socketio.demo.model.Connection.Connection;
+import socketio.demo.model.Message.Response;
 
 import java.util.*;
 
@@ -44,12 +44,23 @@ public class ConnectionCache {
         }else{
             return ResponseUtil.Sucess("Object Not Found");
         }
-
     }
 
     public static Connection GetConnctionByName(String ConnectionName){
         return connectionMap.get(ConnectionName);
     }
+
+    public static Connection GetConnctionById(UUID id){
+        List<Connection> list = GetSessionList();
+        Optional<Connection> opt = list.stream().filter((x)->x.getConnectionId().equals(id.toString())).findFirst();
+        if (opt.isPresent()) {
+            Connection connection = opt.get();
+            return connection;
+        }else{
+            return null;
+        }
+    }
+
 
     //获取在线列表（包括SessionId)
     public static Map<String,Connection> GetSessionMap(){
