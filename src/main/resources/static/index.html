@@ -1,101 +1,22 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
 <head>
     <meta charset="utf-8">
-    <title>demo</title>
+    <title>Cortex</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!--<script src="http://cdn.bootcss.com/sockjs-client/1.1.1/sockjs.min.js"></script>-->
-    <!--<script src="http://cdn.bootcss.com/stomp.js/2.3.3/stomp.js"></script>-->
-    <script src="http://10.1.1.117:8080/js/socket.io.js"></script>
-    <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
-<div class="">
-    <div class="row" style="width: 40%;border: 5px solid cornflowerblue">
-        <div class="col-sm-8">
-            <h3>用户<span id="user"></span></h3>
-            <ul class="list-group" style="height:300px;overflow:auto;" id="scrolld">
-            </ul>
-            <div>
-                <textarea name="textarea" style="width:100%;height:80px;" id="text"></textarea>
-                <button class="btn btn-md pull-right" onclick="send()" style="margin-left: 10px;">发送</button>
-                <button class="btn btn-md pull-right" onclick="allsend()">全局发送</button>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <h3>在线用户</h3>
-            <ul class="list-group" id="list" style="height:435px;overflow:auto;">
-            </ul>
+    <app-root></app-root>
+    <div class="preloader">
+        <div class="preloader-progress">
+            <div class="preloader-progress-bar"></div>
         </div>
     </div>
-    <label>用户名：</label>
-    <input type="text" id="username"/>
-    <button class="btn btn-md" onclick="connect()">登陆</button>
-</div>
-</body>
-<script type="text/javascript">
-    document.getElementById('scrolld').scrollTop  = document.getElementById('scrolld').scrollHeight;
-    var socket;
-    function connect(){
-        socket =  io.connect('http://10.1.1.117:5000');
-        socket.on('messageEvent', function(data) {
-            console.log(data);
-        });
-        socket.on('boardCast',function (data) {
-            var html='<li class="list-group-item">广播：'+new Date()+'-'+data.message+'</li>';
-            $('#scrolld').append(html);
-        });
-        socket.on('disconnect', function() {
-            console.log("client close")
-        });
-        ///获取列表
-        socket.on("serverResponse",function (data) {
-            console.log(data);
-        });
-        //池列表单独监听
-        socket.on("listenPools",function (data) {
-           console.log(data)
-        });
 
-        socket.on('connect', function() {
-            socket.emit("authentication",document.getElementById('username').value);
-            socket.on('sessionList',function (data) {
-                $('#list').empty();
-                var html='';
-                for(var i=0;i<data.length;i++){
-                    html+='<li class="list-group-item" onclick="getMessage(\''+data[i].connectionName+'\')">'+data[i].connectionName+'</li>'
-                }
-                $('#list').append(html);
-            });
-            socket.on("p2p",function (data) {
-                console.log(data);
-                var html='<li class="list-group-item">'+new Date()+'-'+data+'</li>';
-                $('#scrolld').append(html);
-            });
-
-        });
-    }
-    function getMessage(username){
-        $('#user').text(username);
-    }
-    function allsend(){
-        socket.emit("boardCast",{"userName":document.getElementById('username').value,"message":document.getElementById('text').value});
-        socket.emit("createPool",{"poolName":"123","poolMode":"public","queueSortColumn":"updateTime","forceOverWrite":false});
-        socket.emit("pullPool","123");
-        //socket.emit("pushPool",) 拿出一个池对象推送。
-        socket.emit("clonePool",{"sourcePoolName":"123","destPoolName":"456","creator":"system"});
-        socket.emit("flushPool","456");
-        socket.emit("destoryPool","456");
-    }
-    function send() {
-        console.log($('#user').text());
-        socket.emit("p2p",{"sender":document.getElementById('username').value,"receiver":$('#user').text(),"message":document.getElementById('text').value});
-
-
-    }
-
-</script>
+<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="scripts.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+<!--<script src="http://cg.pingfang.net:5000/signalr/hubs"></script>-->
 </html>

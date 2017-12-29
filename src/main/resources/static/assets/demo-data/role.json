@@ -1,0 +1,158 @@
+[
+  {
+    "id": 1,
+    "menuName": "系统管理",
+    "menuLink": null,
+    "icon": "icon-grid",
+    "description": "",
+    "isExternal": false,
+    "target": "_self",
+    "sortNumber": 99,
+    "createTime": "2017-11-17T13:27:52+08:00",
+    "updateTime": "2017-11-17T13:27:52+08:00",
+    "parentMenu": null,
+    "site": {
+      "id": 1,
+      "siteCode": "HPCTRT",
+      "siteName": "黄埔集装箱码头",
+      "description": "",
+      "apiServiceUrl": "http://dev.pingfang.net/cn-guangzhou-hpctrt/api",
+      "messageHubUrl": "http://dev.pingfang.net:5003",
+      "createTime": "2017-11-17T13:27:52+08:00",
+      "updateTime": "2017-11-17T13:27:52+08:00",
+      "city": {
+        "id": 1,
+        "cityCode": "GUANGZHOU",
+        "cityName": "广州",
+        "createTime": "2017-11-17T13:27:52+08:00",
+        "updateTime": "2017-11-17T13:27:52+08:00",
+        "country": {
+          "id": 1,
+          "countryCode": "CN",
+          "countryName": "中国",
+          "createTime": "2017-11-17T13:27:52+08:00",
+          "updateTime": "2017-11-17T13:27:52+08:00"
+        }
+      },
+      "parentSite": null
+    },
+    "children": []
+  },
+  {
+    "id": 6,
+    "menuName": "仪表盘",
+    "menuLink": "dashboard",
+    "icon": "icon-speedometer",
+    "description": "",
+    "isExternal": false,
+    "target": "_self",
+    "sortNumber": 1,
+    "createTime": "2017-11-17T13:27:52+08:00",
+    "updateTime": "2017-11-17T13:27:52+08:00",
+    "parentMenu": null,
+    "site": {
+      "id": 1,
+      "siteCode": "HPCTRT",
+      "siteName": "黄埔集装箱码头",
+      "description": "",
+      "apiServiceUrl": "http://dev.pingfang.net/cn-guangzhou-hpctrt/api",
+      "messageHubUrl": "http://dev.pingfang.net:5003",
+      "createTime": "2017-11-17T13:27:52+08:00",
+      "updateTime": "2017-11-17T13:27:52+08:00",
+      "city": {
+        "id": 1,
+        "cityCode": "GUANGZHOU",
+        "cityName": "广州",
+        "createTime": "2017-11-17T13:27:52+08:00",
+        "updateTime": "2017-11-17T13:27:52+08:00",
+        "country": {
+          "id": 1,
+          "countryCode": "CN",
+          "countryName": "中国",
+          "createTime": "2017-11-17T13:27:52+08:00",
+          "updateTime": "2017-11-17T13:27:52+08:00"
+        }
+      },
+      "parentSite": null
+    },
+    "children": []
+  },
+  {
+    "id": 7,
+    "menuName": "船舶管理",
+    "menuLink": null,
+    "icon": "icon-grid",
+    "description": "",
+    "isExternal": false,
+    "target": "_self",
+    "sortNumber": 2,
+    "createTime": "2017-11-17T13:27:52+08:00",
+    "updateTime": "2017-11-17T13:27:52+08:00",
+    "parentMenu": null,
+    "site": {
+      "id": 1,
+      "siteCode": "HPCTRT",
+      "siteName": "黄埔集装箱码头",
+      "description": "",
+      "apiServiceUrl": "http://dev.pingfang.net/cn-guangzhou-hpctrt/api",
+      "messageHubUrl": "http://dev.pingfang.net:5003",
+      "createTime": "2017-11-17T13:27:52+08:00",
+      "updateTime": "2017-11-17T13:27:52+08:00",
+      "city": {
+        "id": 1,
+        "cityCode": "GUANGZHOU",
+        "cityName": "广州",
+        "createTime": "2017-11-17T13:27:52+08:00",
+        "updateTime": "2017-11-17T13:27:52+08:00",
+        "country": {
+          "id": 1,
+          "countryCode": "CN",
+          "countryName": "中国",
+          "createTime": "2017-11-17T13:27:52+08:00",
+          "updateTime": "2017-11-17T13:27:52+08:00"
+        }
+      },
+      "parentSite": null
+    },
+    "children": []
+  },
+  {
+    "id": 10,
+    "menuName": "理货操作",
+    "menuLink": null,
+    "icon": "icon-grid",
+    "description": "",
+    "isExternal": false,
+    "target": "_self",
+    "sortNumber": 3,
+    "createTime": "2017-11-17T13:27:52+08:00",
+    "updateTime": "2017-11-17T13:27:52+08:00",
+    "parentMenu": null,
+    "site": {
+      "id": 1,
+      "siteCode": "HPCTRT",
+      "siteName": "黄埔集装箱码头",
+      "description": "",
+      "apiServiceUrl": "http://dev.pingfang.net/cn-guangzhou-hpctrt/api",
+      "messageHubUrl": "http://dev.pingfang.net:5003",
+      "createTime": "2017-11-17T13:27:52+08:00",
+      "updateTime": "2017-11-17T13:27:52+08:00",
+      "city": {
+        "id": 1,
+        "cityCode": "GUANGZHOU",
+        "cityName": "广州",
+        "createTime": "2017-11-17T13:27:52+08:00",
+        "updateTime": "2017-11-17T13:27:52+08:00",
+        "country": {
+          "id": 1,
+          "countryCode": "CN",
+          "countryName": "中国",
+          "createTime": "2017-11-17T13:27:52+08:00",
+          "updateTime": "2017-11-17T13:27:52+08:00"
+        }
+      },
+      "parentSite": null
+    },
+    "children": []
+  }
+]

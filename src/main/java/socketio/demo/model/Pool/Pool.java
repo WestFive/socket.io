@@ -3,28 +3,26 @@ package socketio.demo.model.Pool;
 import socketio.demo.model.Queue.Queue;
 
 import java.util.List;
+import java.util.Map;
 
 public class Pool {
     private String poolName;
     private String poolMode;
-    private List<Queue> queues;
+    private Map<String,Queue> queues;
     private String queuesSortColumn;
     private String creator;
-    private String createTime;
-    private String updateTime;
 
-    public Pool(String poolName, String poolMode, List<Queue> queues, String queuesSortColumn, String creator, String createTime, String dateTime) {
-        this.poolName = poolName;
-        this.poolMode = poolMode;
-        this.queues = queues;
-        this.queuesSortColumn = queuesSortColumn;
-        this.creator = creator;
-        this.createTime = createTime;
-        this.updateTime = dateTime;
-    }
-
-    public Pool() {
-
+    @Override
+    public String toString() {
+        return "Pool{" +
+                "poolName='" + poolName + '\'' +
+                ", poolMode='" + poolMode + '\'' +
+                ", queues=" + queues.values() +
+                ", queuesSortColumn='" + queuesSortColumn + '\'' +
+                ", creator='" + creator + '\'' +
+                ", createTime='" + createTime + '\'' +
+                ", updateTime='" + updateTime + '\'' +
+                '}';
     }
 
     public Pool(String poolName, String poolMode, String queuesSortColumn, String creator) {
@@ -34,8 +32,31 @@ public class Pool {
         this.creator = creator;
     }
 
-    public String getPoolName() {
+    public Pool(String poolName, String poolMode, String queuesSortColumn, String creator, String createTime, String updateTime) {
 
+        this.poolName = poolName;
+        this.poolMode = poolMode;
+        this.queuesSortColumn = queuesSortColumn;
+        this.creator = creator;
+        this.createTime = createTime;
+        this.updateTime = updateTime;
+    }
+
+    public Pool(String poolName, String poolMode, Map<String, Queue> queues, String queuesSortColumn, String creator, String createTime, String updateTime) {
+        this.poolName = poolName;
+        this.poolMode = poolMode;
+        this.queues = queues;
+        this.queuesSortColumn = queuesSortColumn;
+
+        this.creator = creator;
+        this.createTime = createTime;
+        this.updateTime = updateTime;
+    }
+
+    private String createTime;
+    private String updateTime;
+
+    public String getPoolName() {
         return poolName;
     }
 
@@ -51,11 +72,11 @@ public class Pool {
         this.poolMode = poolMode;
     }
 
-    public List<Queue> getQueues() {
+    public Map<String, Queue> getQueues() {
         return queues;
     }
 
-    public void setQueues(List<Queue> queues) {
+    public void setQueues(Map<String, Queue> queues) {
         this.queues = queues;
     }
 
@@ -83,11 +104,15 @@ public class Pool {
         this.createTime = createTime;
     }
 
-    public String getupDateTime() {
+    public String getUpdateTime() {
         return updateTime;
     }
 
-    public void setupDateTime(String dateTime) {
-        this.updateTime = dateTime;
+    public void setUpdateTime(String updateTime) {
+        this.updateTime = updateTime;
+    }
+
+    public Pool() {
+
     }
 }

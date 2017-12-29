@@ -5,6 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import socketio.demo.service.SocketServer;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 @Component
@@ -12,6 +15,8 @@ public class MessagehubUtil {
 
     @Autowired
     SocketServer socketServer;
+    @Autowired
+    ConnectionCache connectionCache;
 
 
     //广播
@@ -20,7 +25,7 @@ public class MessagehubUtil {
     }
     //点对点
     public void p2p(String reciver,Object message){
-        socketServer.Server.getClient(UUID.fromString(ConnectionCache.GetConnctionByName(reciver).getConnectionId())).sendEvent("p2p",message);
+        socketServer.Server.getClient(UUID.fromString(connectionCache.GetConnctionByName(reciver).getConnectionId())).sendEvent("p2p",message);
     }
     //广播事件
     public void eventBoardCast(String eventName,Object message){
@@ -32,12 +37,13 @@ public class MessagehubUtil {
     }
     //点对点事件
     public void eventP2p(String eventName,String reciver,Object message) {
-        socketServer.Server.getClient(UUID.fromString(ConnectionCache.GetConnctionByName(reciver).getConnectionId())).sendEvent(eventName,message);
+        socketServer.Server.getClient(UUID.fromString(connectionCache.GetConnctionByName(reciver).getConnectionId())).sendEvent(eventName,message);
     }
     //点对点反馈
     public void eventP2pReturn(String eventName,UUID reciverId,Object message){
         socketServer.Server.getClient(reciverId).sendEvent(eventName,message);
     }
+
 
 
 }

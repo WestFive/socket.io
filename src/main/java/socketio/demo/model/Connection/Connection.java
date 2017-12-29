@@ -1,12 +1,21 @@
 package socketio.demo.model.Connection;
 
+import java.util.Collection;
 import java.util.List;
 
 public class Connection  {
     private String connectionId;
     private String connectionName;
     private String connectionIpAdress;
-    private String privatePools;
+    private Collection<String> privatePools;
+
+    public Collection<String> getPrivatePools() {
+        return privatePools;
+    }
+
+    public void setPrivatePools(Collection<String> privatePools) {
+        this.privatePools = privatePools;
+    }
 
     public String getConnectionId() {
         return connectionId;
@@ -34,7 +43,7 @@ public class Connection  {
         this.connectionIpAdress = connectionIpAdress;
     }
 
-    public Connection(String connectionId, String connectionName, String connectionIpAdress, String privatePools) {
+    public Connection(String connectionId, String connectionName, String connectionIpAdress, Collection<String>privatePools) {
 
         this.connectionId = connectionId;
         this.connectionName = connectionName;

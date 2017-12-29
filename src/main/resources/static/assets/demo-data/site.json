@@ -1,0 +1,35 @@
+[
+	{
+		"site_id" : 1,
+		"site_code":"CN-RUILI-JICP1",
+		"site_name" : "瑞丽口岸联检中心",
+		"description" : "xxxxxxxxxxxxx",
+		"parent_site_name" : "-",
+		"country_name" : "中国",
+		"city_name" : "瑞丽1",
+		"create_time" : "2017-09-29 10:00:00",
+		"update_time":"2017-09-29 10:00:00"
+	},
+	{
+		"site_id" : 2,
+		"site_code":"CN-RUILI-JICP1",
+		"site_name" : "瑞丽口岸联检中心",
+		"description" : "xxxxxxxxxxxxx",
+		"parent_site_name" : "-",
+		"country_name" : "中国",
+		"city_name" : "瑞丽2",
+		"create_time" : "2017-09-29 10:00:00",
+		"update_time":"2017-09-29 10:00:00"
+	},
+	{
+		"site_id" : 3,
+		"site_code":"CN-RUILI-JICP1",
+		"site_name" : "瑞丽口岸联检中心",
+		"description" : "xxxxxxxxxxxxx",
+		"parent_site_name" : "-",
+		"country_name" : "中国",
+		"city_name" : "瑞丽3",
+		"create_time" : "2017-09-29 10:00:00",
+		"update_time":"2017-09-29 10:00:00"
+	}
+]

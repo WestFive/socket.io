@@ -1,0 +1,44 @@
+[
+  {
+    "id" : 1,
+    "menu_name": "车道监控",
+    "icon": "fa-car",
+    "url": "mainframe.lane_monitoring"
+  },
+  {
+    "id" : 2,
+    "menu_name": "采集记录",
+    "icon": "fa-camera",
+    "url": "mainframe.snapshot_record"
+  },
+  {
+    "id" : 3,
+    "menu_name": "过车记录",
+    "icon": "fa-list-alt",
+    "url": "mainframe.vehicle_record"
+  },
+  {
+    "id" : 4,
+    "expanded": true,
+    "menu_name": "系统管理",
+    "icon": "fa-cog",
+    "children": [
+      {
+        "id" : 1,
+        "menu_name": "车辆备案",
+        "icon": "fa-clipboard",
+        "url": "mainframe.vehicle_record"
+      }, {
+        "id" : 4,
+        "menu_name": "车道管理",
+        "icon": "fa-list-ol",
+        "url": "mainframe.vehicle_record"
+      }, {
+        "id" : 7,
+        "menu_name": "菜单管理",
+        "icon": "fa-th-large",
+        "url": "mainframe.vehicle_record"
+      }
+    ]
+  }
+]

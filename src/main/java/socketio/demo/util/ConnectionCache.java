@@ -1,21 +1,35 @@
 package socketio.demo.util;
 
+import com.google.gson.Gson;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.stereotype.Component;
 import socketio.demo.model.Connection.Connection;
 import socketio.demo.model.Message.Response;
 
 import java.util.*;
 
+@Component
 public class ConnectionCache {
 
-    public static Map<String,Connection> connectionMap = new HashMap<String,Connection>();
+    public static Map<String,Connection> connectionMap = new HashMap<>();
 
-    public static Response AddToConnections(Connection connection){
+    @Autowired
+    RedisUtil redisUtil;
+
+    private Gson gson = new Gson();
+
+    public  Response AddToConnections(Connection connection){
         try {
             if (connectionMap.containsKey(connection.getConnectionName()) == false) {
                 connectionMap.put(connection.getConnectionName(), connection);
+                 redisUtil.insertKeyAndTime("connectionMap",gson.toJson(connectionMap),10);
+
                 return ResponseUtil.Sucess(connection.getConnectionName()+"登录成功", connection);
             } else {
                 connectionMap.put(connection.getConnectionName(),connection);
+                redisUtil.insertKeyAndTime("connectionMap",gson.toJson(connectionMap),10);
                 return  ResponseUtil.Sucess(connection.getConnectionName()+"登录成功,信息已更新", connection);
             }
         }catch (Exception e){
@@ -23,10 +37,11 @@ public class ConnectionCache {
         }
     }
 
-    public static Response RemoveFromConnections(Connection connection){
+    public  Response RemoveFromConnections(Connection connection){
         try {
             if (connectionMap.containsKey(connection.getConnectionName())) {
                 connectionMap.remove(connection.getConnectionName());
+                redisUtil.insertKeyAndTime("connectionMap",gson.toJson(connectionMap),10);
                 return ResponseUtil.Sucess(connection.getConnectionName()+"离开服务器", connection);
             } else {
                 return ResponseUtil.Error(connection.getConnectionName()+"没有该客户端", 404);
@@ -35,8 +50,8 @@ public class ConnectionCache {
             return ResponseUtil.Error(connection.getConnectionName()+"离开服务器()"+"服务器错误",e);
         }
     }
-    public static Response RemoveFromConnections(String ConnectionId){
-        List<Connection> list = GetSessionList();
+    public  Response RemoveFromConnections(String ConnectionId){
+        Collection<Connection> list = GetSessionList();
         Optional<Connection> opt = list.stream().filter((x)->x.getConnectionId().equals(ConnectionId)).findFirst();
         if (opt.isPresent()) {
             Connection connection = opt.get();
@@ -46,12 +61,12 @@ public class ConnectionCache {
         }
     }
 
-    public static Connection GetConnctionByName(String ConnectionName){
+    public  Connection GetConnctionByName(String ConnectionName){
         return connectionMap.get(ConnectionName);
     }
 
-    public static Connection GetConnctionById(UUID id){
-        List<Connection> list = GetSessionList();
+    public  Connection GetConnctionById(UUID id){
+        Collection<Connection> list = GetSessionList();
         Optional<Connection> opt = list.stream().filter((x)->x.getConnectionId().equals(id.toString())).findFirst();
         if (opt.isPresent()) {
             Connection connection = opt.get();
@@ -63,17 +78,14 @@ public class ConnectionCache {
 
 
     //获取在线列表（包括SessionId)
-    public static Map<String,Connection> GetSessionMap(){
+    public  Map<String,Connection> GetSessionMap(){
         return  connectionMap;
     }
 
     ///获取在线列表
-    public static List<Connection>GetSessionList(){
-        List<Connection> connections = new ArrayList<Connection>();
-        for (Connection conn:connectionMap.values()
-             ) {
-            connections.add(conn);
-        }
-        return connections;
+    public  Collection<Connection>GetSessionList(){
+        return connectionMap.values();
     }
+
+
 }

@@ -1,7 +1,10 @@
 package socketio.demo.util;
 
+import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
+import socketio.demo.model.Connection.Connection;
 import socketio.demo.model.Message.Response;
 import socketio.demo.model.Pool.Pool;
 import socketio.demo.model.Pool.PoolStatus;
@@ -11,32 +14,44 @@ import java.security.Policy;
 import java.time.LocalDateTime;
 import java.util.*;
 
+/*
+*
+* 用于操作池的工具类
+* */
 @Component
 public class PoolsUtil {
-    private  Map<String,Pool> PoolsMap = new HashMap<String,Pool>();
+    public static Map<String,Pool> PoolsMap = new HashMap<String,Pool>();
 
-    private List<PoolStatus> PoolsStatus = new ArrayList<PoolStatus>();
+    public static List<PoolStatus> PoolsStatus = new ArrayList<PoolStatus>();
     @Autowired
     private MessagehubUtil messagehubUtil;
 
+    @Autowired
+    private StringRedisTemplate redisTemplate;
+
+    @Autowired
+    private ConnectionCache connectionCache;
+
+    private final Gson gson = new Gson();
     //监听池集合
+
+    public void update(){
+        redisTemplate.opsForValue().set("poolsMap",gson.toJson(PoolsMap));
+    }
 
     public void listenPools()
     {
-        PoolsStatus.clear();
-        for (Pool pool:PoolsMap.values()
-             ) {
-            PoolsStatus.add(new PoolStatus(pool.getPoolName(),pool.getPoolMode(),pool.getQueues().size(),pool.getQueuesSortColumn(),pool.getCreateTime(),pool.getupDateTime()));
-        }
-        messagehubUtil.eventBoardCast("listenPools",PoolsStatus);
+        messagehubUtil.eventBoardCast("listenPools",ListPoolUtil.MapListToList(PoolsMap));
     }
+
     //创建池
     public void createPool(String poolName,String poolMode,String queuesSortColumn,boolean forceOverwrite,String creator)
     {
         Pool pool = new Pool(poolName,poolMode,queuesSortColumn,creator);
         pool.setCreateTime(LocalDateTime.now().toString());
-        pool.setupDateTime(LocalDateTime.now().toString());
-        pool.setQueues(new ArrayList<Queue>());
+        pool.setUpdateTime(LocalDateTime.now().toString());
+        pool.setQueues(new HashMap<String,Queue>() {
+        });
         if(PoolsMap.containsKey(poolName)){
             if(forceOverwrite==true){
                 PoolsMap.put(poolName,pool);
@@ -48,11 +63,14 @@ public class PoolsUtil {
             PoolsMap.put(poolName,pool);
             messagehubUtil.eventP2p("serverResponse",creator,ResponseUtil.Sucess("createPool","成功",pool));
         }
+        redisTemplate.opsForValue().set("poolsMap",gson.toJson(PoolsMap));
+
+
     }
     //拉取池
     public void pullPool(String poolName,UUID uuid){
         if(PoolsMap.containsKey(poolName)){
-            messagehubUtil.eventP2pReturn("serverResponse",uuid, ResponseUtil.Sucess("pullPool","成功",PoolsMap.get(poolName)));
+            messagehubUtil.eventP2pReturn("serverResponse",uuid, ResponseUtil.Sucess("pullPool","成功",PoolsMap.get(poolName).getQueues().values()));
         }else{
             messagehubUtil.eventP2pReturn("serverResponse",uuid,ResponseUtil.Error("pullPool","失败，找不到池",404,poolName));
         }
@@ -62,6 +80,7 @@ public class PoolsUtil {
         if(PoolsMap.containsKey(pool.getPoolName())){
             messagehubUtil.eventP2pReturn("serverResponse",uuid,ResponseUtil.Error("pushPool","失败：已包含该池无法创建",400,pool));
         }else{
+            pool.setUpdateTime(LocalDateTime.now().toString());
             PoolsMap.put(pool.getPoolName(),pool);
             messagehubUtil.eventP2pReturn("serverResponse",uuid,ResponseUtil.Sucess("pushPool","成功",pool));
         }
@@ -71,11 +90,12 @@ public class PoolsUtil {
         if(PoolsMap.containsKey(SourcePoolName)) {
             if(!PoolsMap.containsKey(DestPoolName)){
                 Pool poolSource = PoolsMap.get(SourcePoolName);
+                poolSource.setUpdateTime(LocalDateTime.now().toString());
                 Pool poolDest = new Pool();
                 poolDest.setPoolName(DestPoolName);
                 poolDest.setQueues(poolSource.getQueues());
                 poolDest.setCreateTime(poolSource.getCreateTime());
-                poolDest.setupDateTime(poolSource.getupDateTime());
+                poolDest.setUpdateTime(poolSource.getUpdateTime());
                 poolDest.setCreator(poolSource.getCreator());
                 poolDest.setPoolMode(poolSource.getPoolMode());
                 poolDest.setQueuesSortColumn(poolSource.getQueuesSortColumn());
@@ -92,7 +112,8 @@ public class PoolsUtil {
     public void flushPool(String PoolName,UUID uuid)
     {
         if(PoolsMap.containsKey(PoolName)){
-             PoolsMap.get(PoolName).setQueues(new ArrayList<Queue>());
+            PoolsMap.get(PoolName).setQueues(new HashMap<String,Queue>());
+            PoolsMap.get(PoolName).setUpdateTime(LocalDateTime.now().toString());
             messagehubUtil.eventP2pReturn("serverResponse",uuid,ResponseUtil.Sucess("flushPool","成功",PoolsMap.get(PoolName)));
         }else {
         messagehubUtil.eventP2pReturn("serverResponse",uuid,ResponseUtil.Error("flushPool","失败,找不到池",404,PoolName));
@@ -106,7 +127,27 @@ public class PoolsUtil {
         }else {
         messagehubUtil.eventP2pReturn("serverResponse",uuid,ResponseUtil.Error("destoryPool","失败,找不到池",404,PoolName));
     }
+    }
 
+
+    public void registerPrivatePool(String poolName,UUID uuid){
+        if(PoolsMap.containsKey(poolName)) {
+            if (PoolsMap.get(poolName).getPoolMode().equals("private")) {
+                Collection<String> privatePools = connectionCache.GetConnctionById(uuid).getPrivatePools();
+                privatePools.add(poolName);
+                connectionCache.GetConnctionById(uuid).setPrivatePools(privatePools);
+            }
+        }
+    }
+
+    public void abolishPrivatePool(String poolName,UUID uuid){
+        if(PoolsMap.containsKey(poolName)){
+           if(PoolsMap.get(poolName).getPoolMode().equals("private")){
+               Collection<String> privatePools = connectionCache.GetConnctionById(uuid).getPrivatePools();
+               privatePools.remove(poolName);
+               connectionCache.GetConnctionById(uuid).setPrivatePools(privatePools);
+           }
+        }
     }
 
 
