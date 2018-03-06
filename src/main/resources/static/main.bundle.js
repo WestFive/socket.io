@@ -6,11 +6,11 @@ webpackJsonp([3],{
 var map = {
 	"./MessageHub2/message2.module": [
 		"../../../../../src/app/routes/MessageHub2/message2.module.ts",
-		1
+		0
 	],
 	"./SessionLog/session.module": [
 		"../../../../../src/app/routes/SessionLog/session.module.ts",
-		0
+		1
 	]
 };
 function webpackAsyncContext(req) {
@@ -293,7 +293,8 @@ AppModule = __decorate([
                 provide: __WEBPACK_IMPORTED_MODULE_7_ng2_interceptors__["InterceptorService"],
                 useFactory: interceptorFactory,
                 deps: [__WEBPACK_IMPORTED_MODULE_2__angular_http__["XHRBackend"], __WEBPACK_IMPORTED_MODULE_2__angular_http__["RequestOptions"], __WEBPACK_IMPORTED_MODULE_8__serverURLInterceptor__["a" /* ServerURLInterceptor */]]
-            }],
+            },
+        ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
@@ -1497,7 +1498,7 @@ AuthModule = __decorate([
 /***/ "../../../../../src/app/routes/auth/login/login.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"login\">\r\n  <div class=\"login-title\">\r\n    <h1>消息服务</h1>\r\n  </div>\r\n  <div class=\"login-form\">\r\n    <div class=\"block-center\">\r\n      <!-- START panel-->\r\n      <div class=\"panel panel-dark panel-flat\">\r\n        <div class=\"panel-heading text-center\">\r\n          <a href=\"#\">\r\n            <img class=\"block-center img-rounded\" src=\"assets/img/logo.png\" alt=\"Image\" />\r\n          </a>\r\n        </div>\r\n        <div class=\"panel-body\">\r\n          <p class=\"text-center pv\">SIGN IN TO CONTINUE.</p>\r\n          <form class=\"form-validate mb-lg\" role=\"form\" name=\"loginForm\" novalidate=\"\">\r\n            <div class=\"form-group has-feedback\">\r\n              <input class=\"form-control\" id=\"exampleInputEmail1\" type=\"email\" name=\"email\" placeholder=\"Enter email\" [(ngModel)]=\"username\" />\r\n              <span class=\"fa fa-envelope form-control-feedback text-muted\"></span>\r\n              <!--<span class=\"text-danger\" >This field is required</span>-->\r\n            </div>\r\n            <div class=\"form-group has-feedback\">\r\n              <input class=\"form-control\" id=\"exampleInputPassword1\" type=\"password\" name=\"password\" placeholder=\"Password\" [(ngModel)]=\"password\" />\r\n              <span class=\"fa fa-lock form-control-feedback text-muted\"></span>\r\n              <!--<span class=\"text-danger\" >This field is required</span>-->\r\n            </div>\r\n            <div class=\"clearfix\">\r\n              <div class=\"checkbox c-checkbox pull-left mt0\">\r\n                <label>\r\n                  <input type=\"checkbox\" value=\"\" name=\"account_remember\"/>\r\n                  <span class=\"fa fa-check\"></span>记住我</label>\r\n              </div>\r\n              <div class=\"pull-right\"><a class=\"text-muted\" [routerLink]=\"'/recover'\">忘记密码?</a>\r\n              </div>\r\n            </div>\r\n            <button class=\"btn btn-block btn-primary mt-lg\" type=\"submit\" (click)=\"logining()\">登陆</button>\r\n          </form>\r\n          <!-- <div class=\"alert alert-danger text-center\" ></div> -->\r\n          <p class=\"pt-lg text-center\">注册账号</p>\r\n        </div>\r\n      </div>\r\n      <!-- END panel-->\r\n      <div class=\"p-lg text-center\">\r\n        <span>&copy;</span>\r\n        <span>{{ '2017/9/5'}}</span>\r\n        <span>-</span>\r\n        <span>{{ '1.0.0'}}</span>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
+module.exports = "<div class=\"login\">\r\n  <div class=\"login-title\">\r\n    <h1>消息服务</h1>\r\n  </div>\r\n  <div class=\"login-form\">\r\n    <div class=\"block-center\">\r\n      <!-- START panel-->\r\n      <div class=\"panel panel-dark panel-flat\">\r\n        <div class=\"panel-heading text-center\">\r\n          <a href=\"#\">\r\n            <img class=\"block-center img-rounded\" src=\"assets/img/logo.png\" alt=\"Image\" />\r\n          </a>\r\n        </div>\r\n        <div class=\"panel-body\">\r\n          <p class=\"text-center pv\">SIGN IN TO CONTINUE.</p>\r\n          <form class=\"form-validate mb-lg\" role=\"form\" name=\"loginForm\" novalidate=\"\">\r\n            <div class=\"form-group has-feedback\">\r\n              <input class=\"form-control\" id=\"exampleInputEmail1\" type=\"email\" name=\"email\" placeholder=\"Enter email\" [(ngModel)]=\"username\" />\r\n              <span class=\"fa fa-envelope form-control-feedback text-muted\"></span>\r\n              <!--<span class=\"text-danger\" >This field is required</span>-->\r\n            </div>\r\n            <div class=\"form-group has-feedback\">\r\n              <input class=\"form-control\" id=\"exampleInputPassword1\" type=\"password\" name=\"password\" placeholder=\"Password\" [(ngModel)]=\"password\" />\r\n              <span class=\"fa fa-lock form-control-feedback text-muted\"></span>\r\n              <!--<span class=\"text-danger\" >This field is required</span>-->\r\n            </div>\r\n            <div class=\"clearfix\">\r\n              <div class=\"checkbox c-checkbox pull-left mt0\">\r\n                <label>\r\n                  <input type=\"checkbox\" value=\"\" name=\"account_remember\"/>\r\n                  <span class=\"fa fa-check\"></span>记住我</label>\r\n              </div>\r\n              <div class=\"pull-right\"><a class=\"text-muted\" [routerLink]=\"'/recover'\">忘记密码?</a>\r\n              </div>\r\n            </div>\r\n            <button class=\"btn btn-block btn-primary mt-lg\" type=\"submit\" (click)=\"logining()\">登陆</button>\r\n          </form>\r\n          <!-- <div class=\"alert alert-danger text-center\" ></div> -->\r\n          <p class=\"pt-lg text-center\">注册账号</p>\r\n        </div>\r\n      </div>\r\n      <!-- END panel-->\r\n      <div class=\"p-lg text-center\">\r\n        <span>&copy;</span>\r\n        <span>{{ '2018/1/11'}}</span>\r\n        <span>-</span>\r\n        <span>{{ '1.0.0'}}</span>\r\n      </div>\r\n    </div>\r\n  </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -1611,7 +1612,7 @@ var Messagehub = {
     icon: 'icon-speedometer'
 };
 var SessionLog = {
-    text: '会话日志',
+    text: '会话',
     link: 'sessionLog',
     icon: 'icon-speedometer'
 };
@@ -1841,10 +1842,9 @@ var MessagehubService = (function () {
         var _this = this;
         this.socket = io.connect(url);
         this.socket.on('connect', function () {
-            _this.socket.emit('authentication', username);
+            _this.socket.emit('authentication', JSON.stringify(username));
             _this.socket.on('sessionList', function (data) {
-                _this.sessionData = data;
-                console.log(_this.sessionData);
+                _this.sessionData = JSON.parse(data);
             });
         });
     };
@@ -1865,7 +1865,7 @@ var MessagehubService = (function () {
         var _this = this;
         return new __WEBPACK_IMPORTED_MODULE_1__rxjs_5_1_0_rxjs_Observable_js__["Observable"](function (observer) {
             _this.socket.on(funcname, function (message) {
-                observer.next(message);
+                observer.next(JSON.parse(message));
             });
         });
     };
@@ -1876,7 +1876,12 @@ var MessagehubService = (function () {
      * @return Observable 对象数组
      */
     MessagehubService.prototype.connectionEmit = function (funcname, params) {
-        this.socket.emit(funcname, params);
+        if (typeof params === 'string') {
+            this.socket.emit(funcname, params);
+        }
+        else {
+            this.socket.emit(funcname, JSON.stringify(params));
+        }
     };
     return MessagehubService;
 }());
@@ -3313,8 +3318,13 @@ module.exports = __webpack_require__.p + "loginBG.5a9adad6587422d20a82.jpg";
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return environment; });
+// The file contents for the current environment will overwrite these during build.
+// The build system defaults to the dev environment which uses `environment.ts`, but if you do
+// `ng build --env=prod` then `environment.prod.ts` will be used instead.
+// The list of which env maps to which file can be found in `.angular-cli.json`.
+// The file contents for the current environment will overwrite these during build.
 var environment = {
-    production: true,
+    production: false,
     messageHub: 'http://111.231.216.235:5000'
 };
 //# sourceMappingURL=environment.js.map
@@ -3398,7 +3408,7 @@ p.then(function () { window.appBootstrap && window.appBootstrap(); });
       'usePrefixes': true
     },
 
-    // Queue of tests
+    // Message of tests
     _q: [],
 
     // Stub these for people who are listening

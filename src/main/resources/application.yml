@@ -1,6 +1,17 @@
 spring:
   redis:
     database: 0
-    host: localhost
+    host: 119.23.136.251
     port: 6379
     timeout: 0
+
+local: Cortex
+server:
+  port: 8090
+
+messagehub:
+  port: 5003
+  address: 0.0.0.0
+
+
+
