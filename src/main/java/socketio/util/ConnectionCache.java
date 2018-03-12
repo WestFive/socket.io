@@ -110,7 +110,7 @@ public class ConnectionCache {
                 connection.getPrivatePools().clear();
                 for (Pool pool : PoolsUtil.PoolsMap.values()
                         ) {
-                    if (pool.getCreator().equals(connection.getClientName()) && pool.getPoolMode().equals("private")) {
+                    if (pool.getCreator().equals(connection.getClientName()) && pool.getPoolMode().equals("privateMode")) {
                         Collection<String> privatePools = connection.getPrivatePools();
                         privatePools.add(pool.getPoolName());
                         connection.setPrivatePools(privatePools);

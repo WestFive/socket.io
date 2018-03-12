@@ -7,7 +7,7 @@ public class Connection  {
     private String connectionId;
     private String clientName;
     private String clientCode;
-    private String connectionIpAddress;
+    private String clientIpAddress;
     private Collection<String> privatePools;
 
     public Collection<String> getPrivatePools() {
@@ -26,18 +26,11 @@ public class Connection  {
         this.connectionId = connectionId;
     }
 
-
-
-    public String getConnectionIpAdress() {
-        return connectionIpAddress;
-    }
-
-
-    public Connection(String connectionId, String clientName, String clientCode, String connectionIpAddress, Collection<String> privatePools) {
+    public Connection(String connectionId, String clientName, String clientCode, String clientIpAddress, Collection<String> privatePools) {
         this.connectionId = connectionId;
         this.clientName = clientName;
         this.clientCode = clientCode;
-        this.connectionIpAddress = connectionIpAddress;
+        this.clientIpAddress = clientIpAddress;
         this.privatePools = privatePools;
     }
 
@@ -57,18 +50,12 @@ public class Connection  {
         this.clientCode = clientCode;
     }
 
-    public String getConnectionIpAddress() {
-        return connectionIpAddress;
+
+    public String getClientIpAddress() {
+        return clientIpAddress;
     }
 
-    public void setConnectionIpAddress(String connectionIpAddress) {
-        this.connectionIpAddress = connectionIpAddress;
+    public void setClientIpAddress(String clientIpAddress) {
+        this.clientIpAddress = clientIpAddress;
     }
-
-    public void setConnectionIpAdress(String connectionIpAdress) {
-
-        this.connectionIpAddress = connectionIpAdress;
-    }
-
-
 }

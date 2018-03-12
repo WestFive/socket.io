@@ -143,13 +143,14 @@ public class PoolsUtil {
     }
 
     public void unlistenPool(String poolName,SocketIOClient socketIOClient,AckRequest ackRequest){
+        try{
         if(PoolsMap.get(poolName).getClients().contains(socketIOClient.getSessionId())) {
             PoolsMap.get(poolName).getClients().remove(socketIOClient.getSessionId());
             ackRequest.sendAckData(ResponseUtil.Sucess("listenPool","取消监听成功",null));
             listenPoolList();
         }else{
             ackRequest.sendAckData(ResponseUtil.Error("listenPool","取消监听失败，找不到该池",104,null));
-        }
+        }}catch (Exception ex){}
     }
     //when client disconnect run this method
     public void unlistenPool(UUID socketIOClientID){
@@ -287,7 +288,7 @@ public class PoolsUtil {
         try {
             if(!isConnected(uuid,ackRequest)){return false;}
 
-            if (PoolsUtil.PoolsMap.get(poolName).getPoolMode().equals("private")) {
+            if (PoolsUtil.PoolsMap.get(poolName).getPoolMode().equals("privateMode")) {
                 if (PoolsUtil.PoolsMap.get(poolName).getCreator().equals(ConnectionCache.connectionMap.get(uuid.toString()).getClientName()) == false) {
                     ackRequest.sendAckData(ResponseUtil.Error("isReadOnly", "无权限写入的私有池", 500, poolName));
                     return false;

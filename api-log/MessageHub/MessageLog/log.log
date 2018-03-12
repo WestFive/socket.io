@@ -1,7 +1,77 @@
-2018-03-06 14:58:28.716 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 14:58:29.651 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -null
-java.lang.NullPointerException: null
-	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:71)
+2018-03-07 10:32:48.019 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-03-07 10:32:59.299 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|b354ebdf-10c5-48b9-8265-520ddb817353
+2018-03-07 10:32:59.310 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|b354ebdf-10c5-48b9-8265-520ddb817353
+2018-03-07 10:33:02.715 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|bd7e165f-24b5-4a55-ae5c-fc59408cebd6
+2018-03-07 10:34:02.770 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|bd7e165f-24b5-4a55-ae5c-fc59408cebd6
+2018-03-07 10:34:02.782 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|bd7e165f-24b5-4a55-ae5c-fc59408cebd6
+2018-03-07 10:34:05.211 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|2d99d5f5-caa5-4350-9f2d-9d444fc03497
+2018-03-07 10:35:25.078 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|2d99d5f5-caa5-4350-9f2d-9d444fc03497
+2018-03-07 10:35:25.101 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|2d99d5f5-caa5-4350-9f2d-9d444fc03497
+2018-03-07 10:35:31.161 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|4bbc571a-f346-4d4b-a4d7-7042189d17c2
+2018-03-07 10:38:17.754 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|4bbc571a-f346-4d4b-a4d7-7042189d17c2
+2018-03-07 10:38:17.776 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|4bbc571a-f346-4d4b-a4d7-7042189d17c2
+2018-03-07 10:38:21.242 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|b2b1023e-bcb1-4e12-aef2-0d3d372741c7
+2018-03-07 10:39:48.263 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|b2b1023e-bcb1-4e12-aef2-0d3d372741c7
+2018-03-07 10:39:48.286 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|b2b1023e-bcb1-4e12-aef2-0d3d372741c7
+2018-03-07 10:39:51.704 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|d9169904-a96b-45c7-abe1-4c79f164481a
+2018-03-07 10:41:45.892 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|d9169904-a96b-45c7-abe1-4c79f164481a
+2018-03-07 10:41:45.916 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|d9169904-a96b-45c7-abe1-4c79f164481a
+2018-03-07 10:41:48.339 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|ca6d5d9e-6152-46dc-b06a-17d73d8f7cfb
+2018-03-07 10:42:23.773 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|ca6d5d9e-6152-46dc-b06a-17d73d8f7cfb
+2018-03-07 10:42:23.785 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|ca6d5d9e-6152-46dc-b06a-17d73d8f7cfb
+2018-03-07 10:42:26.186 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|3d19ad6c-3e11-463a-9c65-00517a65513c
+2018-03-07 10:44:27.706 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|3d19ad6c-3e11-463a-9c65-00517a65513c
+2018-03-07 10:44:27.731 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|3d19ad6c-3e11-463a-9c65-00517a65513c
+2018-03-07 10:44:31.099 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|74a3c090-5b26-4d92-bf36-de40e3177b5a
+2018-03-07 10:48:46.167 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|74a3c090-5b26-4d92-bf36-de40e3177b5a
+2018-03-07 10:48:46.189 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|74a3c090-5b26-4d92-bf36-de40e3177b5a
+2018-03-07 10:48:49.573 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|b1792bd4-b75e-4ef3-aef7-fb0b80fe6a4a
+2018-03-07 10:49:01.718 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|b1792bd4-b75e-4ef3-aef7-fb0b80fe6a4a
+2018-03-07 10:49:01.733 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|b1792bd4-b75e-4ef3-aef7-fb0b80fe6a4a
+2018-03-07 10:49:05.335 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|79397108-85e8-4272-a201-d74429e3e6fc
+2018-03-07 10:49:19.595 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|79397108-85e8-4272-a201-d74429e3e6fc
+2018-03-07 10:49:19.604 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|79397108-85e8-4272-a201-d74429e3e6fc
+2018-03-07 10:49:23.286 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|ef48e8fd-28fd-485b-8c8f-867709513858
+2018-03-07 10:50:05.240 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|ef48e8fd-28fd-485b-8c8f-867709513858
+2018-03-07 10:50:05.250 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|ef48e8fd-28fd-485b-8c8f-867709513858
+2018-03-07 10:50:08.751 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|c9d0ba8d-35e0-40bd-96b0-5b45fdb671a4
+2018-03-07 10:54:18.394 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|c9d0ba8d-35e0-40bd-96b0-5b45fdb671a4
+2018-03-07 10:54:18.415 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|c9d0ba8d-35e0-40bd-96b0-5b45fdb671a4
+2018-03-07 10:54:20.828 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|1bbafd18-19c8-4857-8cd3-2088aae1fa7c
+2018-03-07 10:55:25.386 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|1bbafd18-19c8-4857-8cd3-2088aae1fa7c
+2018-03-07 10:55:25.396 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|1bbafd18-19c8-4857-8cd3-2088aae1fa7c
+2018-03-07 10:55:27.838 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|f8495c7f-2de5-479e-b7a1-c914c0bc4c09
+2018-03-07 10:56:24.947 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|f8495c7f-2de5-479e-b7a1-c914c0bc4c09
+2018-03-07 10:56:24.956 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|f8495c7f-2de5-479e-b7a1-c914c0bc4c09
+2018-03-07 10:57:32.761 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|e9a33bba-62b9-4295-8768-e21112f67e14
+2018-03-07 10:57:48.561 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|e9a33bba-62b9-4295-8768-e21112f67e14
+2018-03-07 10:57:48.571 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|e9a33bba-62b9-4295-8768-e21112f67e14
+2018-03-07 10:57:52.041 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|c8a9ef41-252a-4480-b1af-87644abbb5b0
+2018-03-07 10:58:53.689 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|c8a9ef41-252a-4480-b1af-87644abbb5b0
+2018-03-07 10:58:53.700 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|c8a9ef41-252a-4480-b1af-87644abbb5b0
+2018-03-07 10:58:57.208 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|f276302d-e5c4-4496-b8d4-548f38c97a67
+2018-03-07 10:59:52.151 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|f276302d-e5c4-4496-b8d4-548f38c97a67
+2018-03-07 10:59:52.161 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|f276302d-e5c4-4496-b8d4-548f38c97a67
+2018-03-07 10:59:54.589 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|212b4496-da72-4945-9f4d-ce64ba4cecb6
+2018-03-07 11:05:21.490 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|212b4496-da72-4945-9f4d-ce64ba4cecb6
+2018-03-07 11:05:21.515 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|212b4496-da72-4945-9f4d-ce64ba4cecb6
+2018-03-07 11:06:46.402 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|e8d3381c-56af-488d-8e64-eeae96ab5ad9
+2018-03-07 11:07:35.683 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|e8d3381c-56af-488d-8e64-eeae96ab5ad9
+2018-03-07 11:07:35.694 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|e8d3381c-56af-488d-8e64-eeae96ab5ad9
+2018-03-07 11:07:36.639 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|dc946c5a-26ef-42d1-be36-f0c0b6ebbfd3
+2018-03-07 11:07:36.639 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|a6ac9595-68e0-4611-a784-0962d91492c6
+2018-03-07 11:07:36.642 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -null
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1429)
+	at java.util.HashMap$ValueIterator.next(HashMap.java:1458)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:95)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:60)
+	at com.google.gson.Gson.toJson(Gson.java:593)
+	at com.google.gson.Gson.toJson(Gson.java:572)
+	at com.google.gson.Gson.toJson(Gson.java:527)
+	at com.google.gson.Gson.toJson(Gson.java:507)
+	at socketio.util.MessagehubUtil.eventBoardCast(MessagehubUtil.java:24)
+	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:94)
 	at socketio.service.ConnectModuleService$1.onConnect(ConnectModuleService.java:54)
 	at com.corundumstudio.socketio.namespace.Namespace.onConnect(Namespace.java:211)
 	at com.corundumstudio.socketio.handler.AuthorizeHandler.connect(AuthorizeHandler.java:239)
@@ -45,15 +115,43 @@ java.lang.NullPointerException: null
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
 	at java.lang.Thread.run(Thread.java:745)
-2018-03-06 14:58:29.651 [nioEventLoopGroup-3-1] ERROR c.c.s.l.DefaultExceptionListener -null
-java.lang.NullPointerException: null
-	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:71)
-	at socketio.service.ConnectModuleService$1.onConnect(ConnectModuleService.java:54)
-	at com.corundumstudio.socketio.namespace.Namespace.onConnect(Namespace.java:211)
-	at com.corundumstudio.socketio.handler.AuthorizeHandler.connect(AuthorizeHandler.java:239)
-	at com.corundumstudio.socketio.transport.PollingTransport.onGet(PollingTransport.java:175)
-	at com.corundumstudio.socketio.transport.PollingTransport.handleMessage(PollingTransport.java:123)
-	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:102)
+2018-03-07 11:07:36.750 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|74645a87-34dc-4dab-9de3-d770b333be1d
+2018-03-07 11:07:37.219 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at com.google.gson.Gson.fromJson(Gson.java:689)
+	at socketio.service.ConnectModuleService$3.onData(ConnectModuleService.java:78)
+	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
+	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at com.corundumstudio.socketio.transport.PollingTransport.onPost(PollingTransport.java:162)
+	at com.corundumstudio.socketio.transport.PollingTransport.handleMessage(PollingTransport.java:121)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:98)
 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
@@ -91,221 +189,13 @@ java.lang.NullPointerException: null
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
 	at java.lang.Thread.run(Thread.java:745)
-2018-03-06 14:58:29.772 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -null
-java.lang.NullPointerException: null
-	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:71)
-	at socketio.service.PoolModuleService$3.onData(PoolModuleService.java:75)
-	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
-	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
-	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
-	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
-	at com.corundumstudio.socketio.transport.WebSocketTransport.channelRead(WebSocketTransport.java:94)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
-	at io.netty.handler.codec.http.websocketx.extensions.WebSocketServerExtensionHandler.channelRead(WebSocketServerExtensionHandler.java:102)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:110)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
-	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
-	at java.lang.Thread.run(Thread.java:745)
-2018-03-06 14:58:29.795 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -null
-java.lang.NullPointerException: null
-	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:71)
-	at socketio.service.MessageService$1.onData(MessageService.java:56)
-	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
-	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
-	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
-	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
-	at com.corundumstudio.socketio.transport.WebSocketTransport.channelRead(WebSocketTransport.java:94)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
-	at io.netty.handler.codec.http.websocketx.extensions.WebSocketServerExtensionHandler.channelRead(WebSocketServerExtensionHandler.java:102)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:110)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:280)
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:396)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
-	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
-	at java.lang.Thread.run(Thread.java:745)
-2018-03-06 14:58:29.803 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -null
-java.lang.NullPointerException: null
-	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:71)
-	at socketio.service.MessageService$2.onData(MessageService.java:71)
-	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
-	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
-	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
-	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
-	at com.corundumstudio.socketio.transport.WebSocketTransport.channelRead(WebSocketTransport.java:94)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
-	at io.netty.handler.codec.http.websocketx.extensions.WebSocketServerExtensionHandler.channelRead(WebSocketServerExtensionHandler.java:102)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:110)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
-	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
-	at java.lang.Thread.run(Thread.java:745)
-2018-03-06 15:00:04.793 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:00:08.249 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|4dafaf4e-11ae-42d8-9673-c14847f167a9
-2018-03-06 15:01:58.492 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:02:02.243 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|40da0cff-2889-45b1-b2d7-9581eed8101d
-2018-03-06 15:02:41.940 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:02:49.244 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|9a9641e8-5d84-4463-a04d-282db3a0ccf4
-2018-03-06 15:03:56.405 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:04:01.242 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|cf8f550a-2c74-46f5-b94c-d61ff677eefd
-2018-03-06 15:04:25.264 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:04:27.244 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|80e9426a-9c52-4443-96a4-bae9bd1c566f
-2018-03-06 15:05:02.001 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:05:06.242 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|b16dd19e-904f-43ce-811a-d8ffa32dbc92
-2018-03-06 15:07:18.168 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:07:24.239 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|5879d153-e7a2-4e03-af23-69526d67e92a
-2018-03-06 15:08:01.258 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:08:03.240 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|3e391ee4-9fae-4771-a8bd-a74ad73345ac
-2018-03-06 15:08:35.178 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:15:32.076 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:15:52.838 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:15:57.236 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|1c0f8086-4515-4666-881f-e0ed2028cdd6
-2018-03-06 15:16:15.853 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:16:21.660 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|7e5a1110-91ff-4a94-a9c5-4ab1a05a433a
-2018-03-06 15:16:55.941 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|7e5a1110-91ff-4a94-a9c5-4ab1a05a433a
-2018-03-06 15:16:55.942 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|7e5a1110-91ff-4a94-a9c5-4ab1a05a433a
-2018-03-06 15:17:58.303 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:18:21.746 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -你的主机中的软件中止了一个已建立的连接。
-java.io.IOException: 你的主机中的软件中止了一个已建立的连接。
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 70 common frames omitted
+2018-03-07 11:07:39.159 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|ce041eab-d878-4650-9970-6e432f5b57f5
+2018-03-07 11:07:58.178 [nioEventLoopGroup-3-8] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
 	at sun.nio.ch.SocketDispatcher.read0(Native Method)
 	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
 	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
@@ -322,34 +212,261 @@ java.io.IOException: 你的主机中的软件中止了一个已建立的连接�
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
 	at java.lang.Thread.run(Thread.java:745)
-2018-03-06 15:18:21.747 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|aff63442-df45-420c-9723-6b8973f7deda
-2018-03-06 15:18:21.749 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|aff63442-df45-420c-9723-6b8973f7deda
-2018-03-06 15:18:21.809 [nioEventLoopGroup-3-8] ERROR c.c.s.transport.PollingTransport -aff63442-df45-420c-9723-6b8973f7deda is not registered. Closing connection
-2018-03-06 15:18:21.835 [nioEventLoopGroup-3-2] ERROR c.c.s.transport.PollingTransport -aff63442-df45-420c-9723-6b8973f7deda is not registered. Closing connection
-2018-03-06 15:19:23.574 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|764a08e8-3a32-48ab-89b8-6a543f7ed2a7
-2018-03-06 15:19:23.579 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|764a08e8-3a32-48ab-89b8-6a543f7ed2a7
-2018-03-06 15:30:22.048 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|e587acf1-def0-4c84-add2-b159fb2f0a25
-2018-03-06 15:30:22.050 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|e587acf1-def0-4c84-add2-b159fb2f0a25
-2018-03-06 15:30:22.051 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|4631f2fb-a4f1-4076-b083-75ae736bb31a
-2018-03-06 15:30:22.054 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|4631f2fb-a4f1-4076-b083-75ae736bb31a
-2018-03-06 15:30:22.242 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -null
-java.util.ConcurrentModificationException: null
-	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1429)
-	at java.util.HashMap$ValueIterator.next(HashMap.java:1458)
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:95)
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:60)
-	at com.google.gson.Gson.toJson(Gson.java:593)
-	at com.google.gson.Gson.toJson(Gson.java:572)
-	at com.google.gson.Gson.toJson(Gson.java:527)
-	at com.google.gson.Gson.toJson(Gson.java:507)
-	at socketio.util.MessagehubUtil.eventBoardCast(MessagehubUtil.java:24)
-	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:82)
-	at socketio.service.ConnectModuleService$1.onConnect(ConnectModuleService.java:54)
-	at com.corundumstudio.socketio.namespace.Namespace.onConnect(Namespace.java:211)
-	at com.corundumstudio.socketio.handler.AuthorizeHandler.connect(AuthorizeHandler.java:239)
-	at com.corundumstudio.socketio.transport.PollingTransport.onGet(PollingTransport.java:175)
-	at com.corundumstudio.socketio.transport.PollingTransport.handleMessage(PollingTransport.java:123)
-	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:102)
+2018-03-07 11:07:58.178 [nioEventLoopGroup-3-1] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-07 11:07:58.182 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|74645a87-34dc-4dab-9de3-d770b333be1d
+2018-03-07 11:07:58.182 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|dc946c5a-26ef-42d1-be36-f0c0b6ebbfd3
+2018-03-07 11:07:58.183 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|74645a87-34dc-4dab-9de3-d770b333be1d
+2018-03-07 11:07:58.183 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|dc946c5a-26ef-42d1-be36-f0c0b6ebbfd3
+2018-03-07 11:09:01.694 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|a6ac9595-68e0-4611-a784-0962d91492c6
+2018-03-07 11:09:01.695 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|a6ac9595-68e0-4611-a784-0962d91492c6
+2018-03-07 11:11:17.449 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|ce041eab-d878-4650-9970-6e432f5b57f5
+2018-03-07 11:11:17.470 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|ce041eab-d878-4650-9970-6e432f5b57f5
+2018-03-07 11:11:20.060 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|e4b73213-91be-407e-9128-fe287bbde529
+2018-03-07 11:12:41.718 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-03-07 11:12:43.443 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|09cb291d-0915-4576-9c51-4de7da045b77
+2018-03-07 11:14:17.444 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|09cb291d-0915-4576-9c51-4de7da045b77
+2018-03-07 11:14:17.445 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|09cb291d-0915-4576-9c51-4de7da045b77
+2018-03-07 11:14:20.213 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|6674abe5-65ed-4f55-bc48-73b1992d18aa
+2018-03-07 11:15:54.243 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|6674abe5-65ed-4f55-bc48-73b1992d18aa
+2018-03-07 11:15:54.266 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|6674abe5-65ed-4f55-bc48-73b1992d18aa
+2018-03-07 11:15:56.721 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|556fabbd-3ef5-4d9b-987f-2c5a49ca61e1
+2018-03-07 11:16:42.801 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|556fabbd-3ef5-4d9b-987f-2c5a49ca61e1
+2018-03-07 11:16:42.813 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|556fabbd-3ef5-4d9b-987f-2c5a49ca61e1
+2018-03-07 11:16:45.200 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|9a7cc18d-b961-4a64-9dd5-ed59a7b92d17
+2018-03-07 11:20:43.598 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|9a7cc18d-b961-4a64-9dd5-ed59a7b92d17
+2018-03-07 11:20:43.620 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|9a7cc18d-b961-4a64-9dd5-ed59a7b92d17
+2018-03-07 11:20:47.106 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|725d72ed-71f4-491a-8ca5-f318912bccdd
+2018-03-07 11:35:28.478 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|725d72ed-71f4-491a-8ca5-f318912bccdd
+2018-03-07 11:35:28.498 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|725d72ed-71f4-491a-8ca5-f318912bccdd
+2018-03-07 11:35:30.906 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|f0fd93c5-1ab6-43c9-be18-59f58e4ad8c9
+2018-03-07 11:35:52.489 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|f0fd93c5-1ab6-43c9-be18-59f58e4ad8c9
+2018-03-07 11:35:52.499 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|f0fd93c5-1ab6-43c9-be18-59f58e4ad8c9
+2018-03-07 11:35:54.934 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|3c1401e8-1c37-427b-a595-84756d38331f
+2018-03-07 11:37:55.426 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|3c1401e8-1c37-427b-a595-84756d38331f
+2018-03-07 11:37:55.448 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|3c1401e8-1c37-427b-a595-84756d38331f
+2018-03-07 11:37:58.911 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|43c5f2f6-ae67-4076-9f6b-b95907244292
+2018-03-07 11:38:24.434 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|43c5f2f6-ae67-4076-9f6b-b95907244292
+2018-03-07 11:38:24.444 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|43c5f2f6-ae67-4076-9f6b-b95907244292
+2018-03-07 11:38:27.921 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|626dcc87-8103-4d23-84ce-143ae53fdbad
+2018-03-07 11:41:17.430 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|626dcc87-8103-4d23-84ce-143ae53fdbad
+2018-03-07 11:41:17.451 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|626dcc87-8103-4d23-84ce-143ae53fdbad
+2018-03-07 11:41:20.935 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|f99ec951-b15d-4c3c-88db-595ef4117b68
+2018-03-07 11:43:48.422 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|f99ec951-b15d-4c3c-88db-595ef4117b68
+2018-03-07 11:43:48.446 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|f99ec951-b15d-4c3c-88db-595ef4117b68
+2018-03-07 11:43:51.921 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|af5a751f-1ebc-44c2-aaa4-8e66c4096a28
+2018-03-07 11:44:14.155 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|af5a751f-1ebc-44c2-aaa4-8e66c4096a28
+2018-03-07 11:44:14.167 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|af5a751f-1ebc-44c2-aaa4-8e66c4096a28
+2018-03-07 11:44:17.738 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|ce522233-f8ac-46bb-b87b-ede5b2c9b046
+2018-03-07 11:44:52.086 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|ce522233-f8ac-46bb-b87b-ede5b2c9b046
+2018-03-07 11:44:52.098 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|ce522233-f8ac-46bb-b87b-ede5b2c9b046
+2018-03-07 11:44:55.547 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|736880d0-425f-455d-a7c2-d32e7925e658
+2018-03-07 11:50:15.421 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|736880d0-425f-455d-a7c2-d32e7925e658
+2018-03-07 11:50:15.446 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|736880d0-425f-455d-a7c2-d32e7925e658
+2018-03-07 11:50:18.976 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|b74c3850-7b6a-492a-bb2a-d6fdc1b1ecfe
+2018-03-07 11:50:26.418 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|b74c3850-7b6a-492a-bb2a-d6fdc1b1ecfe
+2018-03-07 11:50:26.428 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|b74c3850-7b6a-492a-bb2a-d6fdc1b1ecfe
+2018-03-07 11:50:29.896 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|782c2e90-2f0b-4c6c-a924-4fcfd3984dea
+2018-03-07 11:50:47.576 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|782c2e90-2f0b-4c6c-a924-4fcfd3984dea
+2018-03-07 11:50:47.587 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|782c2e90-2f0b-4c6c-a924-4fcfd3984dea
+2018-03-07 11:50:51.068 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|6e6a90c2-2b46-400d-bbe0-af5a9bf347d4
+2018-03-07 11:51:36.968 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|6e6a90c2-2b46-400d-bbe0-af5a9bf347d4
+2018-03-07 11:51:36.979 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|6e6a90c2-2b46-400d-bbe0-af5a9bf347d4
+2018-03-07 11:51:39.500 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|06bfcf4a-963d-468e-aba2-94bee8be2f82
+2018-03-07 11:52:09.326 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|06bfcf4a-963d-468e-aba2-94bee8be2f82
+2018-03-07 11:52:09.337 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|06bfcf4a-963d-468e-aba2-94bee8be2f82
+2018-03-07 11:52:12.801 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|73dc911a-f691-461b-aab6-b5263697e734
+2018-03-07 11:53:25.779 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|6c944cc7-43a7-4925-a85a-5e73e6721b53
+2018-03-07 11:54:01.688 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|73dc911a-f691-461b-aab6-b5263697e734
+2018-03-07 11:54:01.699 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|73dc911a-f691-461b-aab6-b5263697e734
+2018-03-07 11:54:11.733 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|6c944cc7-43a7-4925-a85a-5e73e6721b53
+2018-03-07 11:54:11.745 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|6c944cc7-43a7-4925-a85a-5e73e6721b53
+2018-03-07 11:54:14.672 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|a2bcbcc7-781d-4e86-96a8-97da7a943812
+2018-03-07 11:55:54.695 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|a2bcbcc7-781d-4e86-96a8-97da7a943812
+2018-03-07 11:55:54.716 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|a2bcbcc7-781d-4e86-96a8-97da7a943812
+2018-03-07 11:55:57.285 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|cc65819d-82df-4ba2-ac5b-a8a0becf8e20
+2018-03-07 11:56:51.467 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|cc65819d-82df-4ba2-ac5b-a8a0becf8e20
+2018-03-07 11:56:51.477 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|cc65819d-82df-4ba2-ac5b-a8a0becf8e20
+2018-03-07 11:56:55.255 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|6bad303d-4bf7-4df6-b170-58eea7581b42
+2018-03-07 11:58:39.135 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|6bad303d-4bf7-4df6-b170-58eea7581b42
+2018-03-07 11:58:39.162 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|6bad303d-4bf7-4df6-b170-58eea7581b42
+2018-03-07 11:58:43.047 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|ce29a0fe-354b-4a79-9951-d72c37fc09f3
+2018-03-07 12:00:19.888 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|ce29a0fe-354b-4a79-9951-d72c37fc09f3
+2018-03-07 12:00:19.912 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|ce29a0fe-354b-4a79-9951-d72c37fc09f3
+2018-03-07 12:05:14.712 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|53f2187d-fe7d-4502-9622-26ba87d3bac1
+2018-03-07 12:07:36.415 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|53f2187d-fe7d-4502-9622-26ba87d3bac1
+2018-03-07 12:07:36.437 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|53f2187d-fe7d-4502-9622-26ba87d3bac1
+2018-03-07 12:07:40.770 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|81e36efb-0d74-49e2-a412-8c21a1bb8f5a
+2018-03-07 12:07:46.410 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|81e36efb-0d74-49e2-a412-8c21a1bb8f5a
+2018-03-07 12:07:46.421 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|81e36efb-0d74-49e2-a412-8c21a1bb8f5a
+2018-03-07 12:07:50.349 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|623877e7-490d-4cd2-9fb6-8153ede432b6
+2018-03-07 12:09:17.188 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|623877e7-490d-4cd2-9fb6-8153ede432b6
+2018-03-07 12:09:17.211 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|623877e7-490d-4cd2-9fb6-8153ede432b6
+2018-03-07 12:09:53.324 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|63cf4045-d506-4664-8c5c-1dc0fd1bf097
+2018-03-07 13:53:16.746 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|63cf4045-d506-4664-8c5c-1dc0fd1bf097
+2018-03-07 13:53:16.772 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|63cf4045-d506-4664-8c5c-1dc0fd1bf097
+2018-03-07 13:53:39.410 [nioEventLoopGroup-3-7] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-07 13:53:39.419 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-07 13:53:39.419 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-07 13:53:57.037 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|254ef718-b83d-4466-bc79-e8540e3d6731
+2018-03-07 13:57:57.044 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|254ef718-b83d-4466-bc79-e8540e3d6731
+2018-03-07 13:57:57.064 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|254ef718-b83d-4466-bc79-e8540e3d6731
+2018-03-07 13:57:59.910 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|83134e63-f6b1-458b-b9f0-ef7c79aa3f18
+2018-03-07 13:58:15.346 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|83134e63-f6b1-458b-b9f0-ef7c79aa3f18
+2018-03-07 13:58:15.355 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|83134e63-f6b1-458b-b9f0-ef7c79aa3f18
+2018-03-07 13:58:17.767 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|e5b1f84c-06ed-4415-a560-19957e538e14
+2018-03-07 13:59:07.119 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|e5b1f84c-06ed-4415-a560-19957e538e14
+2018-03-07 13:59:07.129 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|e5b1f84c-06ed-4415-a560-19957e538e14
+2018-03-07 13:59:09.554 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|ef6a45d2-e671-4178-844f-2aee20163ac6
+2018-03-07 14:03:13.096 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|ef6a45d2-e671-4178-844f-2aee20163ac6
+2018-03-07 14:03:13.118 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|ef6a45d2-e671-4178-844f-2aee20163ac6
+2018-03-07 14:03:15.481 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|ee3af573-2c7d-48da-b272-1cc57a9ac184
+2018-03-07 14:07:01.330 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|ee3af573-2c7d-48da-b272-1cc57a9ac184
+2018-03-07 14:07:01.354 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|ee3af573-2c7d-48da-b272-1cc57a9ac184
+2018-03-07 14:07:04.063 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|6c6caaf5-af4f-431e-89e5-3d7355cce7d8
+2018-03-07 14:10:35.483 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|6c6caaf5-af4f-431e-89e5-3d7355cce7d8
+2018-03-07 14:10:35.507 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|6c6caaf5-af4f-431e-89e5-3d7355cce7d8
+2018-03-07 14:10:37.883 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|74a4bf8f-120e-4eb0-b80a-322f931e307d
+2018-03-07 14:11:23.585 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|74a4bf8f-120e-4eb0-b80a-322f931e307d
+2018-03-07 14:11:23.595 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|74a4bf8f-120e-4eb0-b80a-322f931e307d
+2018-03-07 14:11:25.970 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|0ae80d32-07cd-48f8-ae20-1320e57e40fa
+2018-03-07 14:11:48.241 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|0ae80d32-07cd-48f8-ae20-1320e57e40fa
+2018-03-07 14:11:48.252 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|0ae80d32-07cd-48f8-ae20-1320e57e40fa
+2018-03-07 14:11:50.711 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|2fa25ef9-64ba-4592-bee4-5b7edd962f87
+2018-03-07 14:12:40.873 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|2fa25ef9-64ba-4592-bee4-5b7edd962f87
+2018-03-07 14:12:40.884 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|2fa25ef9-64ba-4592-bee4-5b7edd962f87
+2018-03-07 14:12:43.375 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|d0594fe1-cd3e-4e96-89e3-c55f0cd500af
+2018-03-07 14:13:37.342 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|d0594fe1-cd3e-4e96-89e3-c55f0cd500af
+2018-03-07 14:13:37.352 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|d0594fe1-cd3e-4e96-89e3-c55f0cd500af
+2018-03-07 14:13:40.130 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|45ef9664-72ee-4675-9c0d-71f95e0d4b70
+2018-03-07 14:13:51.257 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|2ab3f32b-6c11-4cae-ace1-2c586358c864
+2018-03-07 14:16:45.331 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|45ef9664-72ee-4675-9c0d-71f95e0d4b70
+2018-03-07 14:16:45.332 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|2ab3f32b-6c11-4cae-ace1-2c586358c864
+2018-03-07 14:16:45.354 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|45ef9664-72ee-4675-9c0d-71f95e0d4b70
+2018-03-07 14:16:45.358 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|2ab3f32b-6c11-4cae-ace1-2c586358c864
+2018-03-07 14:16:47.816 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|eddfc3f8-8797-467d-876e-e80ddd96b58f
+2018-03-07 14:18:04.380 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|eddfc3f8-8797-467d-876e-e80ddd96b58f
+2018-03-07 14:18:04.393 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|eddfc3f8-8797-467d-876e-e80ddd96b58f
+2018-03-07 14:18:08.016 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|de4b1499-b779-4c8d-b3aa-b68407edad2b
+2018-03-07 14:18:50.794 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|de4b1499-b779-4c8d-b3aa-b68407edad2b
+2018-03-07 14:18:50.807 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|de4b1499-b779-4c8d-b3aa-b68407edad2b
+2018-03-07 14:18:54.603 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|35a3f774-92c7-49d0-809e-062005e1655f
+2018-03-07 14:22:08.468 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-03-07 14:22:13.326 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|69504ad0-d643-4040-b903-2ac62dc01742
+2018-03-07 14:25:40.339 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|69504ad0-d643-4040-b903-2ac62dc01742
+2018-03-07 14:25:40.362 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|69504ad0-d643-4040-b903-2ac62dc01742
+2018-03-07 14:25:43.884 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|5ca30053-19c2-4276-84a7-3e41e4fcdcde
+2018-03-07 14:26:03.781 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|e66c29c8-da02-4aa8-9cd6-08294917ba92
+2018-03-07 14:29:02.103 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-03-07 14:29:04.717 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|dd3bb0db-ba4d-4dc6-945a-906164042928
+2018-03-07 14:29:09.215 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|dd3bb0db-ba4d-4dc6-945a-906164042928
+2018-03-07 14:29:09.215 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|26f387ad-f9d9-4e7d-98aa-e4da0ba5c231
+2018-03-07 14:29:09.216 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|dd3bb0db-ba4d-4dc6-945a-906164042928
+2018-03-07 14:29:09.216 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|26f387ad-f9d9-4e7d-98aa-e4da0ba5c231
+2018-03-07 14:29:12.783 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|4f2a5640-1779-40b0-b67e-fcf3f424eff0
+2018-03-07 14:29:33.210 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|0ece2f7b-47af-4520-9af6-6f18cc5ce088
+2018-03-07 14:29:41.600 [nioEventLoopGroup-3-2] WARN  socketio.service.PoolModuleService -destroyPool|handler|{0ece2f7b-47af-4520-9af6-6f18cc5ce088=socketio.model.Connection.Connection@442b5d, 3122e47a-a750-467f-bb73-578bcd17e5cc=socketio.model.Connection.Connection@190401b, 4f2a5640-1779-40b0-b67e-fcf3f424eff0=socketio.model.Connection.Connection@12e6b06}|4f2a5640-1779-40b0-b67e-fcf3f424eff0|asd
+2018-03-07 14:29:49.553 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -null
+java.lang.NullPointerException: null
+	at socketio.util.PoolsUtil.unlistenPool(PoolsUtil.java:146)
+	at socketio.service.PoolModuleService$2.onData(PoolModuleService.java:52)
+	at socketio.service.PoolModuleService$2.onData(PoolModuleService.java:49)
+	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
+	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelRead(WebSocketTransport.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:110)
 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
@@ -358,15 +475,6 @@ java.util.ConcurrentModificationException: null
 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
 	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
 	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
 	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
@@ -387,107 +495,31 @@ java.util.ConcurrentModificationException: null
 	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
 	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
 	at java.lang.Thread.run(Thread.java:745)
-2018-03-06 15:30:22.260 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -null
-java.util.ConcurrentModificationException: null
-	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1429)
-	at java.util.HashMap$ValueIterator.next(HashMap.java:1458)
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:95)
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:60)
-	at com.google.gson.Gson.toJson(Gson.java:593)
-	at com.google.gson.Gson.toJson(Gson.java:572)
-	at com.google.gson.Gson.toJson(Gson.java:527)
-	at com.google.gson.Gson.toJson(Gson.java:507)
-	at socketio.util.MessagehubUtil.eventBoardCast(MessagehubUtil.java:24)
-	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:82)
-	at socketio.service.ConnectModuleService$1.onConnect(ConnectModuleService.java:54)
-	at com.corundumstudio.socketio.namespace.Namespace.onConnect(Namespace.java:211)
-	at com.corundumstudio.socketio.handler.AuthorizeHandler.connect(AuthorizeHandler.java:239)
-	at com.corundumstudio.socketio.transport.PollingTransport.onGet(PollingTransport.java:175)
-	at com.corundumstudio.socketio.transport.PollingTransport.handleMessage(PollingTransport.java:123)
-	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:102)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
-	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
-	at java.lang.Thread.run(Thread.java:745)
-2018-03-06 15:31:40.382 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:33:56.548 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|18a5a39a-fb0e-423d-aa2d-728dc11e376b
-2018-03-06 15:33:56.550 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|18a5a39a-fb0e-423d-aa2d-728dc11e376b
-2018-03-06 15:33:56.554 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|886fb2f5-0384-43c5-9a07-ce54803a5a95
-2018-03-06 15:33:56.554 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|886fb2f5-0384-43c5-9a07-ce54803a5a95
-2018-03-06 15:33:56.590 [nioEventLoopGroup-3-8] WARN  c.c.s.transport.WebSocketTransport -Unauthorized client with sessionId: 886fb2f5-0384-43c5-9a07-ce54803a5a95 with ip: /127.0.0.1:23933. Channel closed!
-2018-03-06 15:33:56.596 [nioEventLoopGroup-3-1] ERROR c.c.s.transport.PollingTransport -886fb2f5-0384-43c5-9a07-ce54803a5a95 is not registered. Closing connection
-2018-03-06 15:33:56.604 [nioEventLoopGroup-3-2] ERROR c.c.s.transport.PollingTransport -886fb2f5-0384-43c5-9a07-ce54803a5a95 is not registered. Closing connection
-2018-03-06 15:34:07.189 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:34:27.016 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:34:33.222 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|4a0e45c8-e2a1-4490-9708-1443bd242908
-2018-03-06 15:34:36.496 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|9fdafd34-066e-4e9b-a3e8-94cd3956018d
-2018-03-06 15:35:05.986 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|9fdafd34-066e-4e9b-a3e8-94cd3956018d
-2018-03-06 15:35:06.000 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|9fdafd34-066e-4e9b-a3e8-94cd3956018d
-2018-03-06 15:35:09.158 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|03116cec-8c59-4400-8683-12d3c0fefc1f
-2018-03-06 15:35:19.673 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:35:21.151 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|085f15d6-fabd-428c-b81e-62696c5897aa
-2018-03-06 15:35:25.776 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|085f15d6-fabd-428c-b81e-62696c5897aa
-2018-03-06 15:35:25.777 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|085f15d6-fabd-428c-b81e-62696c5897aa
-2018-03-06 15:35:26.225 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|3b10e6d4-4ba5-4dfc-92ac-731861bf5e43
-2018-03-06 15:35:28.496 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|06b3d7de-d49d-4492-b6ce-060c8154b5a9
-2018-03-06 15:35:40.505 [nioEventLoopGroup-3-4] WARN  socketio.service.PoolModuleService -destroyPool|handler|{aa1fab48-c8ad-43bf-91fe-038659ce6ca3=socketio.model.Connection.Connection@57af13, 06b3d7de-d49d-4492-b6ce-060c8154b5a9=socketio.model.Connection.Connection@1d100ef}|06b3d7de-d49d-4492-b6ce-060c8154b5a9|publictest2
-2018-03-06 15:35:42.825 [nioEventLoopGroup-3-4] WARN  socketio.service.PoolModuleService -destroyPool|handler|{aa1fab48-c8ad-43bf-91fe-038659ce6ca3=socketio.model.Connection.Connection@57af13, 06b3d7de-d49d-4492-b6ce-060c8154b5a9=socketio.model.Connection.Connection@1d100ef}|06b3d7de-d49d-4492-b6ce-060c8154b5a9|publictest1
-2018-03-06 15:36:20.041 [nioEventLoopGroup-3-4] WARN  socketio.service.PoolModuleService -destroyPool|handler|{aa1fab48-c8ad-43bf-91fe-038659ce6ca3=socketio.model.Connection.Connection@57af13, 06b3d7de-d49d-4492-b6ce-060c8154b5a9=socketio.model.Connection.Connection@1d100ef}|06b3d7de-d49d-4492-b6ce-060c8154b5a9|javaClientPool
-2018-03-06 15:36:48.052 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:36:49.608 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|28ad2c39-8474-47e8-b22f-c1b5c95a8715
-2018-03-06 15:36:55.222 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|7708fa02-cb55-430f-89b6-0d56fb262a80
-2018-03-06 15:37:31.343 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:37:33.221 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|51067214-8527-418f-8191-83f3a15abbf8
-2018-03-06 15:37:35.622 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|ed13c786-4540-4d57-b1d6-c9648ed72db9
-2018-03-06 15:37:35.838 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|ed13c786-4540-4d57-b1d6-c9648ed72db9
-2018-03-06 15:37:35.839 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|ed13c786-4540-4d57-b1d6-c9648ed72db9
-2018-03-06 15:37:38.595 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|da09e591-7f29-424c-bfad-41da34a0ed3c
-2018-03-06 15:38:23.201 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 15:38:27.221 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|2a6d4d53-96d1-4b0d-baf6-cd0eb7de2d81
-2018-03-06 16:05:02.038 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 16:05:03.205 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|fd025875-3299-4230-9930-8930eb41e491
-2018-03-06 16:05:06.203 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|897f6585-1a9e-47b6-a8ff-9a65cff54488
-2018-03-06 16:05:09.080 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disConnect|handler|fd025875-3299-4230-9930-8930eb41e491
-2018-03-06 16:05:09.081 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -disPoollisten|handel|fd025875-3299-4230-9930-8930eb41e491
-2018-03-06 16:05:12.086 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|f1af848b-8935-4ee3-9c7d-c6de73c9a3e0
-2018-03-06 16:05:56.596 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 16:05:57.658 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|727f2350-b88b-4519-9216-bdc2afae3d31
-2018-03-06 16:05:59.202 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|8a7ed068-17f3-4a11-9a34-f76e8425c437
-2018-03-06 16:06:03.431 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|727f2350-b88b-4519-9216-bdc2afae3d31
-2018-03-06 16:06:03.432 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|727f2350-b88b-4519-9216-bdc2afae3d31
-2018-03-06 16:06:06.693 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|3d9d3b73-8d2e-4179-96bc-b57a081c5728
-2018-03-06 16:56:41.884 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-03-06 16:56:47.169 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|0145d0c2-91a4-4922-8fa3-06db28a13361
+2018-03-07 14:40:02.315 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|0ece2f7b-47af-4520-9af6-6f18cc5ce088
+2018-03-07 14:40:02.315 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|4f2a5640-1779-40b0-b67e-fcf3f424eff0
+2018-03-07 14:40:02.340 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|0ece2f7b-47af-4520-9af6-6f18cc5ce088
+2018-03-07 14:40:02.340 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|4f2a5640-1779-40b0-b67e-fcf3f424eff0
+2018-03-07 14:41:32.601 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|30332153-dccf-40f6-8ab7-60ae8a6c1eaf
+2018-03-07 14:41:36.816 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|c81ff93e-6323-4939-956d-19c805725c84
+2018-03-07 14:48:03.354 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|c81ff93e-6323-4939-956d-19c805725c84
+2018-03-07 14:48:03.355 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|30332153-dccf-40f6-8ab7-60ae8a6c1eaf
+2018-03-07 14:48:03.378 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|c81ff93e-6323-4939-956d-19c805725c84
+2018-03-07 14:48:03.381 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|30332153-dccf-40f6-8ab7-60ae8a6c1eaf
+2018-03-07 14:48:06.218 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|6adfd8ad-d247-4004-8843-bb8a5f22b0e8
+2018-03-07 14:53:01.488 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|6adfd8ad-d247-4004-8843-bb8a5f22b0e8
+2018-03-07 14:53:01.509 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|6adfd8ad-d247-4004-8843-bb8a5f22b0e8
+2018-03-07 14:53:04.027 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|d1746f38-bd95-4e7a-ba87-8f1da9ae4a91
+2018-03-07 14:54:15.005 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|d1746f38-bd95-4e7a-ba87-8f1da9ae4a91
+2018-03-07 14:54:15.015 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|d1746f38-bd95-4e7a-ba87-8f1da9ae4a91
+2018-03-07 14:54:18.675 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|c36b29de-81a6-4961-add5-45ff0d9d2060
+2018-03-07 14:54:40.344 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|621c0f88-fe29-48e1-a1f0-baac0f8cfb86
+2018-03-07 15:42:12.239 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-03-07 15:42:48.007 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-03-07 15:42:50.085 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|18737809-46a4-4ef9-a3ad-bc2fc9fa938c
+2018-03-07 15:42:51.887 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|d19629a2-e09f-46ea-90af-3458c6db5fac
+2018-03-07 17:46:13.370 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-03-07 17:46:14.605 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|e9cc8a43-4009-4663-8425-7ff318dcf531
+2018-03-07 17:46:15.720 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|2b4ee5fa-b454-4ffd-abf1-d3d4e85cc4ae
+2018-03-07 17:47:22.338 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|263eec77-327c-45bc-b2f9-fb3b5c7e9e84
+2018-03-07 19:05:35.626 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|2b4ee5fa-b454-4ffd-abf1-d3d4e85cc4ae
+2018-03-07 19:05:35.654 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|2b4ee5fa-b454-4ffd-abf1-d3d4e85cc4ae

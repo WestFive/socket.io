@@ -41,7 +41,12 @@ public class SocketClient {
                     @Override
                     public void call(Object... objects) {
                         logger.info(objects[0].toString());
-                        socket.emit("createPool",gson.toJson(new PoolCreate("publicdefault1","public","updatetime",true,"default")));
+                        socket.emit("createPool", gson.toJson(new PoolCreate("publicdefault1", "publicMode", "updatetime", true, "default")), new Ack() {
+                            @Override
+                            public void call(Object... objects) {
+                                System.out.println(objects[0]);
+                            }
+                        });
 //                        socket.emit("destroyPool", "publicdefault1", new Ack() {
 //                            @Override
 //                            public void call(Object... objects) {
@@ -69,6 +74,7 @@ public class SocketClient {
                                 logger.info(objects[0].toString());
                             }
                         });
+
 
                     }
                 });
