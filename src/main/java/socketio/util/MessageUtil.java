@@ -5,7 +5,6 @@ import com.corundumstudio.socketio.SocketIOClient;
 import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import socketio.client.SocketClient;
 import socketio.model.Pool.Pool;
 import socketio.model.Message.Message;
 
@@ -44,26 +43,34 @@ public class MessageUtil {
 //    }
 
     public void addQueue(String poolName, Message message, UUID uuid, AckRequest ackRequest){
-        if(!poolsUtil.isReadOnly(poolName,uuid,ackRequest)){return;}
-        if(PoolsUtil.PoolsMap.containsKey(poolName)) {
-            queueKeyList.add(poolName + "|" + message.getKey());
-            if(PoolsUtil.PoolsMap.get(poolName).getMessages()==null){
-                PoolsUtil.PoolsMap.get(poolName).setMessages(new HashMap<String,Message>());
+        try {
+            if (!poolsUtil.isReadOnly(poolName, uuid, ackRequest)) {
+                return;
             }
-            Pool pool = PoolsUtil.PoolsMap.get(poolName);
-             if(pool.getMessages().containsKey(message.getKey())){//
-                 message.setCreateTime(pool.getMessages().get(message.getKey()).getCreateTime());
-                 message.setUpdateTime(LocalDateTime.now().toString());
-             }else{//add
-                 message.setUpdateTime(LocalDateTime.now().toString());
-                 message.setCreateTime(LocalDateTime.now().toString());
-             }
-             pool.getMessages().put(message.getKey(), message);
-            //PoolsUtil.PoolsMap.put(poolName,pool);
-            poolsUtil.update(poolName,pool);
-            ackRequest.sendAckData(ResponseUtil.Sucess("createMessage", "增加消息成功", message));
-        }else{
-            ackRequest.sendAckData(ResponseUtil.Error("createMessage","增加消息失败,找不到池",104,poolName));
+            if (PoolsUtil.PoolsMap.containsKey(poolName)) {
+                queueKeyList.add(poolName + "|" + message.getKey());
+                if (PoolsUtil.PoolsMap.get(poolName).getMessages() == null) {
+                    PoolsUtil.PoolsMap.get(poolName).setMessages(new HashMap<String, Message>());
+                }
+                Pool pool = PoolsUtil.PoolsMap.get(poolName);
+                if (pool.getMessages().containsKey(message.getKey())) {//
+                    message.setCreateTime(pool.getMessages().get(message.getKey()).getCreateTime());
+                    message.setUpdateTime(LocalDateTime.now().toString());
+                } else {//add
+                    message.setUpdateTime(LocalDateTime.now().toString());
+                    message.setCreateTime(LocalDateTime.now().toString());
+                }
+                pool.getMessages().put(message.getKey(), message);
+                //PoolsUtil.PoolsMap.put(poolName,pool);
+                poolsUtil.update(poolName, pool);
+                ackRequest.sendAckData(ResponseUtil.Sucess("createMessage", "增加消息成功", message));
+            } else {
+                ackRequest.sendAckData(ResponseUtil.Error("createMessage", "增加消息失败,找不到池", 104, poolName));
+            }
+        }
+        catch (Exception ex)
+        {
+            ackRequest.sendAckData(ResponseUtil.Error("createMessage", "增加消息失败,未指定的错误，请尝试重试", 105, poolName));
         }
     }
 

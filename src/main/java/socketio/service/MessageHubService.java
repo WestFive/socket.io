@@ -73,6 +73,7 @@ public class MessageHubService implements CommandLineRunner{
         Configuration config = new Configuration();
         config.setHostname(address);
         config.setPort(Integer.parseInt(port));
+        //config.setTransports(Transport.WEBSOCKET);
         final SocketIOServer server;
         if(Server!=null){
              server=Server;

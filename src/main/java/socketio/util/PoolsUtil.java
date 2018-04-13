@@ -126,7 +126,7 @@ public class PoolsUtil {
 
     public void listenPool(String poolName,SocketIOClient socketIOClient,AckRequest ackRequest) {
         try {
-
+            poolName = poolName.replace("\"", "");
             if (PoolsMap.get(poolName) != null) {
                 PoolsMap.get(poolName).getClients().add(socketIOClient.getSessionId());
                 if (PoolsMap.get(poolName).getClients().size() > 0) {
@@ -143,6 +143,7 @@ public class PoolsUtil {
     }
 
     public void unlistenPool(String poolName,SocketIOClient socketIOClient,AckRequest ackRequest){
+        poolName = poolName.replace("\"", "");
         try{
         if(PoolsMap.get(poolName).getClients().contains(socketIOClient.getSessionId())) {
             PoolsMap.get(poolName).getClients().remove(socketIOClient.getSessionId());
@@ -249,6 +250,7 @@ public class PoolsUtil {
     }
     //销毁池
     public void destroyPool(String PoolName, UUID uuid, AckRequest ackRequest){
+        PoolName = PoolName.replace("\"", "");
         if(!isReadOnly(PoolName,uuid,ackRequest)){return;}
         if(PoolsMap.containsKey(PoolName)){
             remove(PoolName);
@@ -285,6 +287,7 @@ public class PoolsUtil {
 
     ///池权限
     public boolean isReadOnly(String poolName,UUID uuid,AckRequest ackRequest) {
+
         try {
             if(!isConnected(uuid,ackRequest)){return false;}
 
@@ -324,6 +327,7 @@ public class PoolsUtil {
 
 
     public FrontPool poolToFrontPool(Pool pool){
+
         return new FrontPool(pool.getPoolName(),pool.getPoolMode(),pool.getDescription(),pool.getMessages().values(),pool.getMessageSortColumn(),pool.getCreator(),pool.getCreateTime(),pool.getUpdateTime(),(HashSet<UUID>)pool.getClients());
     }
 

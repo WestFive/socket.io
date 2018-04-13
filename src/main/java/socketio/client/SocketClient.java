@@ -17,7 +17,7 @@ import socketio.model.Pool.PoolCreate;
 import java.net.URI;
 import java.time.LocalDateTime;
 
-@Component
+//@Component
 public class SocketClient {
 
 
@@ -82,17 +82,6 @@ public class SocketClient {
 
 
         });
-
-        socket.on(Socket.EVENT_CONNECT_ERROR, new Emitter.Listener() {
-            @Override
-            public void call(Object... objects) {
-                    logger.info("连接失败");
-            }
-        });
-
-
-
-
 
         socket.connect();
 
