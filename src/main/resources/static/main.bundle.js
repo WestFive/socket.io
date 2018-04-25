@@ -3027,8 +3027,7 @@ var MessagehubComponent = /** @class */ (function () {
     };
     MessagehubComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.MessageHub.user.clientName = 'yyyyy';
-        console.log(this.MessageHub.user.clientName);
+        this.MessageHub.user.clientName = 'webConsole';
         // 监听池列表
         this.MessageHub.listenPoolList(function (data) {
             console.log(data);

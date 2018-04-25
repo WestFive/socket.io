@@ -48,13 +48,11 @@ public class PoolsUtil {
                 }.getType());
                 for (Pool pool : list
                         ) {
-                    if (pool.getClients() == null) {
-                        pool.setClients(new HashSet<UUID>());
-                    }
+                    pool.setClients(new HashSet<UUID>());
                     PoolsMap.put(pool.getPoolName(), pool);
                 }
             } catch (Exception ex) {
-
+                logger.error("初始化从Redis中读取Pools数据出错");
             }
         }
     }
@@ -128,8 +126,10 @@ public class PoolsUtil {
         try {
             poolName = poolName.replace("\"", "");
             if (PoolsMap.get(poolName) != null) {
-                PoolsMap.get(poolName).getClients().add(socketIOClient.getSessionId());
+                Set<UUID> clients =PoolsMap.get(poolName).getClients();
+                 PoolsMap.get(poolName).getClients().add(socketIOClient.getSessionId());
                 if (PoolsMap.get(poolName).getClients().size() > 0) {
+                    PoolsMap.get(poolName).setClients(clients);
                     ackRequest.sendAckData(ResponseUtil.Sucess("listenPool", "监听成功", null));
                     messagehubUtil.eventP2pReturn("receivePoolInfo",socketIOClient.getSessionId(),poolToFrontPool(PoolsMap.get(poolName)));
                     listenPoolList();
@@ -147,10 +147,10 @@ public class PoolsUtil {
         try{
         if(PoolsMap.get(poolName).getClients().contains(socketIOClient.getSessionId())) {
             PoolsMap.get(poolName).getClients().remove(socketIOClient.getSessionId());
-            ackRequest.sendAckData(ResponseUtil.Sucess("listenPool","取消监听成功",null));
+            ackRequest.sendAckData(ResponseUtil.Sucess("unlistenPool","取消监听成功",null));
             listenPoolList();
         }else{
-            ackRequest.sendAckData(ResponseUtil.Error("listenPool","取消监听失败，找不到该池",104,null));
+            ackRequest.sendAckData(ResponseUtil.Error("unlistenPool","取消监听失败，找不到该池",104,null));
         }}catch (Exception ex){}
     }
     //when client disconnect run this method
@@ -326,9 +326,37 @@ public class PoolsUtil {
 
 
 
+
     public FrontPool poolToFrontPool(Pool pool){
 
-        return new FrontPool(pool.getPoolName(),pool.getPoolMode(),pool.getDescription(),pool.getMessages().values(),pool.getMessageSortColumn(),pool.getCreator(),pool.getCreateTime(),pool.getUpdateTime(),(HashSet<UUID>)pool.getClients());
+        Map<String,Message> messages = sortMapByValue(pool.getMessages());
+        Map<String,Message> messages2 = pool.getMessages();
+        return new FrontPool(pool.getPoolName(),pool.getPoolMode(),pool.getDescription(),messages.values(),pool.getMessageSortColumn(),pool.getCreator(),pool.getCreateTime(),pool.getUpdateTime(),(HashSet<UUID>)pool.getClients());
+    }
+
+
+
+    //排序
+    public static Map<String, Message> sortMapByValue(Map<String,Message> oriMap) {
+        if (oriMap == null || oriMap.isEmpty()) {
+            return null;
+        }
+        Map<String, Message> sortedMap = new LinkedHashMap<String, Message>();
+        List<Map.Entry<String, Message>> entryList = new ArrayList<Map.Entry<String, Message>>(
+                oriMap.entrySet());
+        Collections.sort(entryList, new MapValueComparator());
+
+        Iterator<Map.Entry<String,Message>> iter = entryList.iterator();
+        Map.Entry<String, Message> tmpEntry = null;
+        while (iter.hasNext()) {
+            tmpEntry = iter.next();
+            sortedMap.put(tmpEntry.getKey(), tmpEntry.getValue());
+        }
+        return sortedMap;
     }
 
 }
+
+
+
+

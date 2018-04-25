@@ -17,6 +17,7 @@ import socketio.model.Pool.PoolCreate;
 import socketio.model.bean.*;
 import socketio.model.Message.Message;
 import socketio.util.PoolsUtil;
+import socketio.util.RedisUtil;
 import socketio.util.ResponseUtil;
 
 import java.time.LocalDateTime;
@@ -75,6 +76,7 @@ public class ClientApiController {
 //        return ResponseUtil.Sucess("clearPool","清空成功","All deleted");
 //    }
 
+    private RedisUtil redisUtil;
     //QueueMethod
     @ApiOperation("增加作业")
     @PostMapping(value = "/addMessage")
@@ -85,7 +87,7 @@ public class ClientApiController {
                     Message _message = new Message(message.getMessage().getKey(),message.getMessage().getValue(), LocalDateTime.now().toString(), LocalDateTime.now().toString());
                     map.put(message.getMessage().getKey(), _message);
 
-
+                    poolsUtil.update(message.getPoolName(),PoolsUtil.PoolsMap.get(message.getPoolName()));
             }else{
                 return  ResponseUtil.Error("找不到该池",404);
             }

@@ -3,9 +3,10 @@ spring:
     database: 0
     host: 119.23.136.251
     port: 6379
-    timeout: 0
+    timeout: 100
 
-local: Cortex
+local: messagelocal
+
 server:
   port: 8081
 
@@ -14,3 +15,9 @@ messagehub:
   address: 0.0.0.0
 
 
+#eureka:
+#    instance:
+#        hostname: messagehubjava
+#    client:
+#        service-url:
+#            defaultZone: http://admin:admin@10.1.1.121:8761/eureka/

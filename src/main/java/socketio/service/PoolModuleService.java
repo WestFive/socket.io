@@ -71,7 +71,6 @@ public class PoolModuleService {
                 logger.info(pool_create.toString());
                 if(!poolsUtil.isConnected(socketIOClient.getSessionId(),ackRequest)){return;}
                 poolsUtil.createPool(pool_create.getPoolName(),pool_create.getPoolMode(),pool_create.getMessagesSortColumn(),pool_create.isForceOverWrite(),pool_create.getDescription(),connectionCache.getConnectionMap().get(socketIOClient.getSessionId().toString()).getClientName(),socketIOClient.getSessionId(),ackRequest);
-
                 poolsUtil.listenPoolList();
                 //poolsUtil.registerPrivatePool(pool_create.getPoolName(),socketIOClient.getSessionId());
                 messagehubUtil.eventBoardCast("getConnections",connectionCache.getConnections());

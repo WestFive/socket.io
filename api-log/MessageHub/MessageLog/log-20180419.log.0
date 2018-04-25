@@ -1,0 +1,238 @@
+2018-04-19 10:02:41.138 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:03:37.733 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:04:09.611 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|de564dbb-b24f-4dc9-a30c-8b5bf6e23042
+2018-04-19 10:04:09.615 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|de564dbb-b24f-4dc9-a30c-8b5bf6e23042
+2018-04-19 10:05:51.437 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:05:57.150 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|9e144339-bdf6-48e7-9d69-5d380944f750
+2018-04-19 10:05:57.152 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|9e144339-bdf6-48e7-9d69-5d380944f750
+2018-04-19 10:06:49.480 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:06:51.848 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|156e828b-9834-44eb-8641-e4526df3a29d
+2018-04-19 10:06:51.850 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|156e828b-9834-44eb-8641-e4526df3a29d
+2018-04-19 10:08:33.214 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:08:52.408 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|9be3e5c5-e2bb-4a8a-b634-72182860e138
+2018-04-19 10:08:52.412 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|9be3e5c5-e2bb-4a8a-b634-72182860e138
+2018-04-19 10:11:40.033 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:13:12.303 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:13:31.322 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|1f3fff5a-2343-47d7-8528-e509e94bad5c
+2018-04-19 10:13:31.323 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|1f3fff5a-2343-47d7-8528-e509e94bad5c
+2018-04-19 10:14:49.622 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:14:55.798 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|11bc54e2-4371-4910-9d36-ee745de560e9
+2018-04-19 10:14:55.799 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|11bc54e2-4371-4910-9d36-ee745de560e9
+2018-04-19 10:16:26.162 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:16:33.003 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|91cd1a76-5364-443a-bc12-a96eda834d49
+2018-04-19 10:16:33.004 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|91cd1a76-5364-443a-bc12-a96eda834d49
+2018-04-19 10:18:06.381 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:21:22.569 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|6d75ac8c-84ab-42c6-b535-a70a4748188e
+2018-04-19 10:21:23.858 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|6d75ac8c-84ab-42c6-b535-a70a4748188e
+2018-04-19 10:22:55.282 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:23:01.135 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|500800a0-f6bb-4763-97ef-45328bdd88c1
+2018-04-19 10:23:01.137 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|500800a0-f6bb-4763-97ef-45328bdd88c1
+2018-04-19 10:23:18.222 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+org.springframework.data.redis.RedisConnectionFailureException: java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:67)
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.convertJedisAccessException(JedisConnection.java:241)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.set(JedisConnection.java:1233)
+	at org.springframework.data.redis.connection.DefaultStringRedisConnection.set(DefaultStringRedisConnection.java:744)
+	at org.springframework.data.redis.core.DefaultValueOperations$10.inRedis(DefaultValueOperations.java:172)
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:57)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:207)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:91)
+	at org.springframework.data.redis.core.DefaultValueOperations.set(DefaultValueOperations.java:169)
+	at socketio.util.RedisUtil.insert(RedisUtil.java:24)
+	at socketio.util.PoolsUtil.update(PoolsUtil.java:65)
+	at socketio.util.MessageUtil.removeQueue(MessageUtil.java:85)
+	at socketio.service.MessageService$2.onData(MessageService.java:70)
+	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
+	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelRead(WebSocketTransport.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:110)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:202)
+	at redis.clients.util.RedisInputStream.readByte(RedisInputStream.java:40)
+	at redis.clients.jedis.Protocol.process(Protocol.java:151)
+	at redis.clients.jedis.Protocol.read(Protocol.java:215)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:340)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:239)
+	at redis.clients.jedis.BinaryJedis.set(BinaryJedis.java:211)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.set(JedisConnection.java:1231)
+	... 68 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:196)
+	... 75 common frames omitted
+2018-04-19 10:25:08.208 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:25:13.208 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|e9d58572-57d6-449d-91c2-24b065e8ed92
+2018-04-19 10:25:13.210 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|e9d58572-57d6-449d-91c2-24b065e8ed92
+2018-04-19 10:25:29.037 [nioEventLoopGroup-3-1] ERROR c.c.s.l.DefaultExceptionListener -java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+org.springframework.data.redis.RedisConnectionFailureException: java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:67)
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.convertJedisAccessException(JedisConnection.java:241)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.set(JedisConnection.java:1233)
+	at org.springframework.data.redis.connection.DefaultStringRedisConnection.set(DefaultStringRedisConnection.java:744)
+	at org.springframework.data.redis.core.DefaultValueOperations$10.inRedis(DefaultValueOperations.java:172)
+	at org.springframework.data.redis.core.AbstractOperations$ValueDeserializingRedisCallback.doInRedis(AbstractOperations.java:57)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:207)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:91)
+	at org.springframework.data.redis.core.DefaultValueOperations.set(DefaultValueOperations.java:169)
+	at socketio.util.RedisUtil.insert(RedisUtil.java:24)
+	at socketio.util.PoolsUtil.update(PoolsUtil.java:65)
+	at socketio.util.MessageUtil.removeQueue(MessageUtil.java:85)
+	at socketio.service.MessageService$2.onData(MessageService.java:70)
+	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
+	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelRead(WebSocketTransport.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:110)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:202)
+	at redis.clients.util.RedisInputStream.readByte(RedisInputStream.java:40)
+	at redis.clients.jedis.Protocol.process(Protocol.java:151)
+	at redis.clients.jedis.Protocol.read(Protocol.java:215)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:340)
+	at redis.clients.jedis.Connection.getStatusCodeReply(Connection.java:239)
+	at redis.clients.jedis.BinaryJedis.set(BinaryJedis.java:211)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.set(JedisConnection.java:1231)
+	... 68 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:196)
+	... 75 common frames omitted
+2018-04-19 10:27:29.753 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:28:04.795 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:28:11.600 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|53dfef4d-0e32-4ee6-9c5d-cfaa8a0a48ea
+2018-04-19 10:28:11.603 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|53dfef4d-0e32-4ee6-9c5d-cfaa8a0a48ea
+2018-04-19 10:28:55.269 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:29:00.955 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|0d9d225d-214c-43a2-b664-6d309d62cf66
+2018-04-19 10:29:00.957 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|0d9d225d-214c-43a2-b664-6d309d62cf66
+2018-04-19 10:30:41.874 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-04-19 10:30:49.468 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|64650d63-1f4f-4e54-90c5-7adad02c8400
+2018-04-19 10:30:49.469 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|64650d63-1f4f-4e54-90c5-7adad02c8400
+2018-04-19 10:31:31.160 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2018-04-19 10:31:35.245 [main] WARN  socketio.service.MessageHubService -��Ϣ�������ɹ�
