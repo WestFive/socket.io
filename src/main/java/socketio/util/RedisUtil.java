@@ -45,10 +45,17 @@ public class RedisUtil {
     public boolean delete(String key){
         if(hasKey(key)){
             stringRedisTemplate.delete(local+key);
+
             return true;
         }else {
             return  false;
         }
+    }
+
+    public  void Publish(String  key,String value)
+    {
+        stringRedisTemplate.convertAndSend(key,value);
+
     }
 
 }

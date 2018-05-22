@@ -60,9 +60,18 @@ public class PoolsUtil {
     private final Gson gson = new Gson();
     //监听池集合
 
+    @Autowired
+    CountsCheck countsCheck;
+
     public void update(String poolName,Pool pool){
+        Pool newpool = countsCheck.trySplit(poolName);
+        if(newpool!=null)
+        {
+            pool = newpool;
+        }
         PoolsMap.put(poolName,pool);
         redisUtil.insert("poolsMap",gson.toJson(PoolsMap.values()));
+
 
     }
 

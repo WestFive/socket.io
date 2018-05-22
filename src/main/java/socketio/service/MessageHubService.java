@@ -48,6 +48,9 @@ public class MessageHubService implements CommandLineRunner{
     @Autowired
     MessageService messageService;
 
+    @Autowired
+    P2pService p2pService;
+
 
     @Value("${messagehub.port}")
     private String port;
@@ -87,6 +90,7 @@ public class MessageHubService implements CommandLineRunner{
         connectionModuleService.start();
         poolModuleService.start();
         messageService.start();
+        p2pService.start();
 
 
 
