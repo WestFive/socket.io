@@ -1,0 +1,994 @@
+2018-05-21 10:40:41.216 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-21 11:00:41.026 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|c21387ba-9329-413a-bcb7-febb4022660d
+2018-05-21 11:00:41.035 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|c21387ba-9329-413a-bcb7-febb4022660d
+2018-05-21 11:00:54.332 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:00:54.332 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:00:54.332 [nioEventLoopGroup-3-4] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:00:54.405 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|6b0f5bfb-b65d-44bf-a7d5-5564138ee134
+2018-05-21 11:00:54.405 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|6b0f5bfb-b65d-44bf-a7d5-5564138ee134
+2018-05-21 11:06:44.757 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|dab71653-9029-4889-8c8a-9795acf79373
+2018-05-21 11:06:44.757 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|9f27a33e-25b2-4bf0-95a9-d37fb78b4414
+2018-05-21 11:06:44.758 [nioEventLoopGroup-3-1] ERROR c.c.s.l.DefaultExceptionListener -null
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1429)
+	at java.util.HashMap$ValueIterator.next(HashMap.java:1458)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:96)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:61)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at com.google.gson.Gson.toJson(Gson.java:603)
+	at com.google.gson.Gson.toJson(Gson.java:583)
+	at socketio.util.MessagehubUtil.eventBoardCast(MessagehubUtil.java:24)
+	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:100)
+	at socketio.service.ConnectModuleService$1.onConnect(ConnectModuleService.java:54)
+	at com.corundumstudio.socketio.namespace.Namespace.onConnect(Namespace.java:211)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.connect(AuthorizeHandler.java:239)
+	at com.corundumstudio.socketio.transport.PollingTransport.onGet(PollingTransport.java:175)
+	at com.corundumstudio.socketio.transport.PollingTransport.handleMessage(PollingTransport.java:123)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:06:55.740 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|dab71653-9029-4889-8c8a-9795acf79373
+2018-05-21 11:06:55.767 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|dab71653-9029-4889-8c8a-9795acf79373
+2018-05-21 11:06:55.768 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|9f27a33e-25b2-4bf0-95a9-d37fb78b4414
+2018-05-21 11:06:55.769 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|9f27a33e-25b2-4bf0-95a9-d37fb78b4414
+2018-05-21 11:07:00.895 [nioEventLoopGroup-3-1] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:07:00.895 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:07:00.895 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:13:02.657 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|8931c96b-864a-49be-baf5-36ecbef44ade
+2018-05-21 11:13:02.658 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|542889dd-ffa5-44aa-9fa7-4cf6746bd0f8
+2018-05-21 11:13:04.058 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|581fa75f-612a-4b7e-b1f1-12b81feed179
+2018-05-21 11:13:14.126 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|8931c96b-864a-49be-baf5-36ecbef44ade
+2018-05-21 11:13:14.127 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|8931c96b-864a-49be-baf5-36ecbef44ade
+2018-05-21 11:13:23.869 [nioEventLoopGroup-3-4] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:13:23.869 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:13:23.870 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|581fa75f-612a-4b7e-b1f1-12b81feed179
+2018-05-21 11:13:23.881 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|581fa75f-612a-4b7e-b1f1-12b81feed179
+2018-05-21 11:13:32.138 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|936abf06-bc9f-4556-94fe-b3cc0ebb2a1c
+2018-05-21 11:13:32.139 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|ac62a4ea-196c-478f-a5ea-16729b0753ee
+2018-05-21 11:13:32.703 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|936abf06-bc9f-4556-94fe-b3cc0ebb2a1c
+2018-05-21 11:13:32.712 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|936abf06-bc9f-4556-94fe-b3cc0ebb2a1c
+2018-05-21 11:13:32.762 [nioEventLoopGroup-3-6] WARN  c.c.s.transport.WebSocketTransport -Unauthorized client with sessionId: 936abf06-bc9f-4556-94fe-b3cc0ebb2a1c with ip: /0:0:0:0:0:0:0:1:10412. Channel closed!
+2018-05-21 11:13:42.827 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|ac62a4ea-196c-478f-a5ea-16729b0753ee
+2018-05-21 11:13:42.827 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|ac62a4ea-196c-478f-a5ea-16729b0753ee
+2018-05-21 11:13:59.689 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|01e89e9d-9f76-4d55-b532-84dc18017af4
+2018-05-21 11:14:09.727 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|01e89e9d-9f76-4d55-b532-84dc18017af4
+2018-05-21 11:14:09.737 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|01e89e9d-9f76-4d55-b532-84dc18017af4
+2018-05-21 11:14:20.839 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:14:20.839 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:14:27.727 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|542889dd-ffa5-44aa-9fa7-4cf6746bd0f8
+2018-05-21 11:14:27.727 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|542889dd-ffa5-44aa-9fa7-4cf6746bd0f8
+2018-05-21 11:14:29.861 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|30e9329a-be8f-4fd2-b383-29eaf1f1cc2b
+2018-05-21 11:14:29.862 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|e0ceb7b1-20c5-4c15-aac8-5dd4cd78fe7f
+2018-05-21 11:14:40.827 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|e0ceb7b1-20c5-4c15-aac8-5dd4cd78fe7f
+2018-05-21 11:14:40.839 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|e0ceb7b1-20c5-4c15-aac8-5dd4cd78fe7f
+2018-05-21 11:14:40.840 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|30e9329a-be8f-4fd2-b383-29eaf1f1cc2b
+2018-05-21 11:14:40.840 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|30e9329a-be8f-4fd2-b383-29eaf1f1cc2b
+2018-05-21 11:15:02.051 [nioEventLoopGroup-3-1] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:15:02.051 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:15:12.217 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|9cc6872c-4b83-4cfd-9cee-46471fb4ab14
+2018-05-21 11:15:12.217 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|0f23e491-9485-4b74-ab52-b8c11165d808
+2018-05-21 11:15:12.218 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -null
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1429)
+	at java.util.HashMap$ValueIterator.next(HashMap.java:1458)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:96)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:61)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at com.google.gson.Gson.toJson(Gson.java:603)
+	at com.google.gson.Gson.toJson(Gson.java:583)
+	at socketio.util.MessagehubUtil.eventBoardCast(MessagehubUtil.java:24)
+	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:100)
+	at socketio.service.ConnectModuleService$1.onConnect(ConnectModuleService.java:54)
+	at com.corundumstudio.socketio.namespace.Namespace.onConnect(Namespace.java:211)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.connect(AuthorizeHandler.java:239)
+	at com.corundumstudio.socketio.transport.PollingTransport.onGet(PollingTransport.java:175)
+	at com.corundumstudio.socketio.transport.PollingTransport.handleMessage(PollingTransport.java:123)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:15:21.134 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:15:21.134 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:15:21.134 [nioEventLoopGroup-3-7] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:15:21.135 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|0f23e491-9485-4b74-ab52-b8c11165d808
+2018-05-21 11:15:21.135 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|9cc6872c-4b83-4cfd-9cee-46471fb4ab14
+2018-05-21 11:15:21.138 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|9cc6872c-4b83-4cfd-9cee-46471fb4ab14
+2018-05-21 11:15:21.152 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|0f23e491-9485-4b74-ab52-b8c11165d808
+2018-05-21 11:15:30.287 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|1ff53198-0198-483f-8632-588546af65b8
+2018-05-21 11:15:30.288 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|5264a21b-5d10-440f-9f72-96c7977fd4f3
+2018-05-21 11:15:38.909 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:15:38.909 [nioEventLoopGroup-3-4] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:15:38.910 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|5264a21b-5d10-440f-9f72-96c7977fd4f3
+2018-05-21 11:15:38.910 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|1ff53198-0198-483f-8632-588546af65b8
+2018-05-21 11:15:38.910 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|5264a21b-5d10-440f-9f72-96c7977fd4f3
+2018-05-21 11:15:38.922 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|1ff53198-0198-483f-8632-588546af65b8
+2018-05-21 11:17:17.731 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|e1e40e08-bc71-4840-a9de-f32346f8faaf
+2018-05-21 11:17:17.731 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|650eb3c7-1e47-4323-9acf-5b33a9d5d0f7
+2018-05-21 11:17:19.122 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|bc6350c3-4bb3-4195-a710-253feb140fff
+2018-05-21 11:17:24.708 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:17:24.708 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:17:24.709 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|e1e40e08-bc71-4840-a9de-f32346f8faaf
+2018-05-21 11:17:24.709 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|bc6350c3-4bb3-4195-a710-253feb140fff
+2018-05-21 11:17:24.709 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|e1e40e08-bc71-4840-a9de-f32346f8faaf
+2018-05-21 11:17:24.734 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|bc6350c3-4bb3-4195-a710-253feb140fff
+2018-05-21 11:18:42.827 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|650eb3c7-1e47-4323-9acf-5b33a9d5d0f7
+2018-05-21 11:18:42.827 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|650eb3c7-1e47-4323-9acf-5b33a9d5d0f7
+2018-05-21 11:19:59.698 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|22b5224b-6387-4163-8df1-1b800354e007
+2018-05-21 11:19:59.698 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|c0527d80-287e-4840-9e6b-4baec49740d3
+2018-05-21 11:20:01.101 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|b6cc923a-4f00-4abf-bf94-21e278c665ef
+2018-05-21 11:20:03.501 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:20:03.501 [nioEventLoopGroup-3-1] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:20:03.502 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:20:03.502 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|c0527d80-287e-4840-9e6b-4baec49740d3
+2018-05-21 11:20:03.504 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|c0527d80-287e-4840-9e6b-4baec49740d3
+2018-05-21 11:20:03.502 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|b6cc923a-4f00-4abf-bf94-21e278c665ef
+2018-05-21 11:20:03.533 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|b6cc923a-4f00-4abf-bf94-21e278c665ef
+2018-05-21 11:21:24.727 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|22b5224b-6387-4163-8df1-1b800354e007
+2018-05-21 11:21:24.727 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|22b5224b-6387-4163-8df1-1b800354e007
+2018-05-21 11:24:30.865 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|f75e7890-ca20-4731-b66f-0b545950b183
+2018-05-21 11:24:30.865 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|6badf411-70cf-4635-9d02-09c0b41af8c7
+2018-05-21 11:24:30.866 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -null
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1429)
+	at java.util.HashMap$ValueIterator.next(HashMap.java:1458)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:96)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:61)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at com.google.gson.Gson.toJson(Gson.java:603)
+	at com.google.gson.Gson.toJson(Gson.java:583)
+	at socketio.util.MessagehubUtil.eventBoardCast(MessagehubUtil.java:24)
+	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:100)
+	at socketio.service.ConnectModuleService$1.onConnect(ConnectModuleService.java:54)
+	at com.corundumstudio.socketio.namespace.Namespace.onConnect(Namespace.java:211)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.connect(AuthorizeHandler.java:239)
+	at com.corundumstudio.socketio.transport.PollingTransport.onGet(PollingTransport.java:175)
+	at com.corundumstudio.socketio.transport.PollingTransport.handleMessage(PollingTransport.java:123)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:24:30.952 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|e02ba272-73c2-425e-84e8-409960f5c096
+2018-05-21 11:24:42.327 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|e02ba272-73c2-425e-84e8-409960f5c096
+2018-05-21 11:24:42.327 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|e02ba272-73c2-425e-84e8-409960f5c096
+2018-05-21 11:24:42.328 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|f75e7890-ca20-4731-b66f-0b545950b183
+2018-05-21 11:24:42.340 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|f75e7890-ca20-4731-b66f-0b545950b183
+2018-05-21 11:24:55.380 [nioEventLoopGroup-3-4] WARN  socketio.service.MessageHubService -deleteQueue|handler|YangSir|{"poolName":"lane","messageKey":"CN-RUILI-JICP1-LA01-D1"}
+2018-05-21 11:24:58.403 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:25:10.856 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|24885ea0-df2e-4a5e-a555-5eae23ac42b1
+2018-05-21 11:25:10.857 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|1c8f5d7d-56bf-4cb4-9aa3-2fedfd58d525
+2018-05-21 11:25:10.896 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|bf098a6a-8a9a-43e9-8d05-337a45017fba
+2018-05-21 11:25:21.315 [nioEventLoopGroup-3-4] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:25:21.315 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:25:21.315 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:25:21.315 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|1c8f5d7d-56bf-4cb4-9aa3-2fedfd58d525
+2018-05-21 11:25:21.315 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|bf098a6a-8a9a-43e9-8d05-337a45017fba
+2018-05-21 11:25:21.319 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|1c8f5d7d-56bf-4cb4-9aa3-2fedfd58d525
+2018-05-21 11:25:21.329 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|bf098a6a-8a9a-43e9-8d05-337a45017fba
+2018-05-21 11:25:34.157 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|7cf201a6-6492-4a81-8502-c85f9ef49d8c
+2018-05-21 11:25:34.157 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|bbe0609f-296d-4494-a1e3-600b763b8ef0
+2018-05-21 11:25:34.213 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|23ce45ec-4b5d-413e-aea1-f7e556b2f2dc
+2018-05-21 11:25:50.149 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:25:50.149 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:25:50.150 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|23ce45ec-4b5d-413e-aea1-f7e556b2f2dc
+2018-05-21 11:25:50.150 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|7cf201a6-6492-4a81-8502-c85f9ef49d8c
+2018-05-21 11:25:50.150 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|23ce45ec-4b5d-413e-aea1-f7e556b2f2dc
+2018-05-21 11:25:50.167 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|7cf201a6-6492-4a81-8502-c85f9ef49d8c
+2018-05-21 11:25:55.927 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|6badf411-70cf-4635-9d02-09c0b41af8c7
+2018-05-21 11:25:55.927 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|6badf411-70cf-4635-9d02-09c0b41af8c7
+2018-05-21 11:26:35.925 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|24885ea0-df2e-4a5e-a555-5eae23ac42b1
+2018-05-21 11:26:35.926 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|24885ea0-df2e-4a5e-a555-5eae23ac42b1
+2018-05-21 11:26:42.098 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|e205bc24-5d75-43e3-a93c-c5f0ad2eb9ba
+2018-05-21 11:26:42.100 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|ebde2a3c-aa19-4150-80c8-43b30272cc55
+2018-05-21 11:26:42.127 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|2d1a386d-312e-40be-b3dc-4d6a09182889
+2018-05-21 11:26:59.226 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|bbe0609f-296d-4494-a1e3-600b763b8ef0
+2018-05-21 11:26:59.226 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|bbe0609f-296d-4494-a1e3-600b763b8ef0
+2018-05-21 11:27:01.891 [nioEventLoopGroup-3-4] WARN  socketio.service.PoolModuleService -destroyPool|handler|{03edc726-405c-427a-bea2-a7eb79d07e9e=socketio.model.Connection.Connection@139d528, e205bc24-5d75-43e3-a93c-c5f0ad2eb9ba=socketio.model.Connection.Connection@1f30225}|03edc726-405c-427a-bea2-a7eb79d07e9e|csharpPool
+2018-05-21 11:27:05.701 [nioEventLoopGroup-3-4] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:27:05.701 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:27:05.702 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|e205bc24-5d75-43e3-a93c-c5f0ad2eb9ba
+2018-05-21 11:27:05.702 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|2d1a386d-312e-40be-b3dc-4d6a09182889
+2018-05-21 11:27:05.702 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|2d1a386d-312e-40be-b3dc-4d6a09182889
+2018-05-21 11:27:05.710 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|e205bc24-5d75-43e3-a93c-c5f0ad2eb9ba
+2018-05-21 11:28:07.126 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|ebde2a3c-aa19-4150-80c8-43b30272cc55
+2018-05-21 11:28:07.127 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|ebde2a3c-aa19-4150-80c8-43b30272cc55
+2018-05-21 11:32:43.406 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|03bf2778-2f5e-4333-98df-44d1669fb07b
+2018-05-21 11:32:43.406 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|ebbd4053-bde9-450b-b76a-5c1966698445
+2018-05-21 11:32:43.407 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -null
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1429)
+	at java.util.HashMap$ValueIterator.next(HashMap.java:1458)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:96)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.write(CollectionTypeAdapterFactory.java:61)
+	at com.google.gson.Gson.toJson(Gson.java:669)
+	at com.google.gson.Gson.toJson(Gson.java:648)
+	at com.google.gson.Gson.toJson(Gson.java:603)
+	at com.google.gson.Gson.toJson(Gson.java:583)
+	at socketio.util.MessagehubUtil.eventBoardCast(MessagehubUtil.java:24)
+	at socketio.util.PoolsUtil.listenPoolList(PoolsUtil.java:100)
+	at socketio.service.ConnectModuleService$1.onConnect(ConnectModuleService.java:54)
+	at com.corundumstudio.socketio.namespace.Namespace.onConnect(Namespace.java:211)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.connect(AuthorizeHandler.java:239)
+	at com.corundumstudio.socketio.transport.PollingTransport.onGet(PollingTransport.java:175)
+	at com.corundumstudio.socketio.transport.PollingTransport.handleMessage(PollingTransport.java:123)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:32:43.449 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|df2e5317-9a1d-480e-947b-5cadc020a51d
+2018-05-21 11:32:54.826 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|df2e5317-9a1d-480e-947b-5cadc020a51d
+2018-05-21 11:32:54.827 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|df2e5317-9a1d-480e-947b-5cadc020a51d
+2018-05-21 11:32:54.828 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|ebbd4053-bde9-450b-b76a-5c1966698445
+2018-05-21 11:32:54.838 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|ebbd4053-bde9-450b-b76a-5c1966698445
+2018-05-21 11:33:09.543 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|87fbeb91-0365-497d-b24f-b355b7cb33d5
+2018-05-21 11:34:08.427 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|03bf2778-2f5e-4333-98df-44d1669fb07b
+2018-05-21 11:34:08.427 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|03bf2778-2f5e-4333-98df-44d1669fb07b
+2018-05-21 11:34:33.617 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:34:33.618 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|87fbeb91-0365-497d-b24f-b355b7cb33d5
+2018-05-21 11:34:33.635 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|87fbeb91-0365-497d-b24f-b355b7cb33d5
+2018-05-21 11:34:37.579 [nioEventLoopGroup-3-4] WARN  socketio.service.MessageHubService -deleteQueue|handler|YangSir|{"poolName":"lane","messageKey":"CN-RUILI-JICP-LA01"}
+2018-05-21 11:34:44.621 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|9892b96c-391b-4506-beaa-40438e82c831
+2018-05-21 11:34:44.621 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|739e1eb7-d06e-496d-8a0f-d4eaca55d5df
+2018-05-21 11:34:44.662 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|a37b00af-b7d0-4fa3-b2d0-738f39f8cd8a
+2018-05-21 11:34:55.226 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|a37b00af-b7d0-4fa3-b2d0-738f39f8cd8a
+2018-05-21 11:34:55.227 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|a37b00af-b7d0-4fa3-b2d0-738f39f8cd8a
+2018-05-21 11:34:55.228 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|739e1eb7-d06e-496d-8a0f-d4eaca55d5df
+2018-05-21 11:34:55.237 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|739e1eb7-d06e-496d-8a0f-d4eaca55d5df
+2018-05-21 11:35:10.745 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -Connect|handler|90d16fbb-9435-4773-8ae3-6350ba76950b
+2018-05-21 11:36:09.626 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|9892b96c-391b-4506-beaa-40438e82c831
+2018-05-21 11:36:09.627 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|9892b96c-391b-4506-beaa-40438e82c831
+2018-05-21 11:36:33.773 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:36:33.774 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|90d16fbb-9435-4773-8ae3-6350ba76950b
+2018-05-21 11:36:33.800 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|90d16fbb-9435-4773-8ae3-6350ba76950b
+2018-05-21 11:45:56.941 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|1134b611-d418-44af-8d88-3dd6d38a051c
+2018-05-21 11:45:56.942 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|3675f2b3-d899-4948-85e3-210b214c88fd
+2018-05-21 11:45:56.983 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|a6bd749c-fe10-467c-9dcb-e1bffa5e1fdc
+2018-05-21 11:46:02.062 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:46:02.062 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:46:02.063 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-21 11:46:02.063 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|a6bd749c-fe10-467c-9dcb-e1bffa5e1fdc
+2018-05-21 11:46:02.063 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|1134b611-d418-44af-8d88-3dd6d38a051c
+2018-05-21 11:46:02.066 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|a6bd749c-fe10-467c-9dcb-e1bffa5e1fdc
+2018-05-21 11:46:02.093 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|1134b611-d418-44af-8d88-3dd6d38a051c
+2018-05-21 11:46:21.772 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|03edc726-405c-427a-bea2-a7eb79d07e9e
+2018-05-21 11:46:21.786 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|03edc726-405c-427a-bea2-a7eb79d07e9e
+2018-05-21 11:47:22.026 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|3675f2b3-d899-4948-85e3-210b214c88fd
+2018-05-21 11:47:22.027 [pool-3-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|3675f2b3-d899-4948-85e3-210b214c88fd
+2018-05-21 17:40:38.719 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-21 17:43:11.974 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-21 17:44:41.637 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-21 17:45:04.728 [main] WARN  socketio.service.MessageHubService -消息服务开启成功

@@ -21,7 +21,12 @@ public class MessagehubUtil {
 
     //广播事件
     public void eventBoardCast(String eventName,Object message){
-        messageHubService.Server.getBroadcastOperations().sendEvent(eventName,gson.toJson(message));
+        try {
+            messageHubService.Server.getBroadcastOperations().sendEvent(eventName, gson.toJson(message));
+        }catch (Exception ex)
+        {
+
+        }
 
     }
 

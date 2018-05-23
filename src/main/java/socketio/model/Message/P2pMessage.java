@@ -6,11 +6,12 @@ public class P2pMessage {
     private String receiver;
     private String msg;
 
-    public String getReciver() {
+
+    public String getReceiver() {
         return receiver;
     }
 
-    public void setReciver(String receiver) {
+    public void setReceiver(String receiver) {
         this.receiver = receiver;
     }
 

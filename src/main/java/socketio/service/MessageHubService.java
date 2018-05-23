@@ -60,6 +60,7 @@ public class MessageHubService implements CommandLineRunner{
 
     @Override
     public void run(String... strings) throws Exception {
+        logger.warn("消息服务尝试开启");
         startServer();
         try{
             redisUtil.insert("serverStatus", LocalDateTime.now().toString());
@@ -77,6 +78,7 @@ public class MessageHubService implements CommandLineRunner{
         config.setHostname(address);
         config.setPort(Integer.parseInt(port));
         //config.setTransports(Transport.WEBSOCKET);
+        config.setAllowCustomRequests(true);
         final SocketIOServer server;
         if(Server!=null){
              server=Server;

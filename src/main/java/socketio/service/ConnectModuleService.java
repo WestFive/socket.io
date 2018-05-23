@@ -47,9 +47,10 @@ public class ConnectModuleService {
         MessageHubService.Server.addConnectListener(new ConnectListener() {
             @Override
             public void onConnect(SocketIOClient socketIOClient) {
+                logger.warn("Connect|handler|" + socketIOClient.getSessionId());
                 if (ConnectionCache.connectionMap.size() > 0) {
                     messagehubUtil.eventBoardCast("getConnections", connectionCache.getConnections());
-                    logger.warn("Connect|handler|" + socketIOClient.getSessionId());
+
                 }
                 poolsUtil.listenPoolList();
             }
@@ -79,7 +80,7 @@ public class ConnectModuleService {
                 }else {
                     connectionCreate = gson.fromJson(gson.toJson(value), ConnectionCreate.class);
                 }
-                Response res = connectionCache.AddToConnections(new Connection(socketIOClient.getSessionId().toString(), connectionCreate.getClientName(),connectionCreate.getClientCode(), socketIOClient.getRemoteAddress().toString(), new ArrayList<String>()));
+                Response res = connectionCache.AddToConnections(new Connection(socketIOClient.getSessionId().toString(), connectionCreate.getClientName().toString(),connectionCreate.getClientCode(), socketIOClient.getRemoteAddress().toString(), new ArrayList<String>()));
                 Connection connection = connectionCache.getConnectionMap().get(socketIOClient.getSessionId());
                 if(connection!=null) {
                     logger.warn("authentication|handler|" + connection.getClientCode()+"|"+ connection.getClientName());

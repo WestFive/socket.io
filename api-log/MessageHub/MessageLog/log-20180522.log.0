@@ -1,0 +1,996 @@
+2018-05-22 09:25:07.856 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 09:30:57.558 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 09:31:01.550 [nioEventLoopGroup-3-1] WARN  i.n.channel.DefaultChannelPipeline -An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NullPointerException: null
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelInactive(WebSocketTransport.java:151)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.codec.http.HttpContentEncoder.channelInactive(HttpContentEncoder.java:299)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:417)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:947)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:822)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:31:08.448 [nioEventLoopGroup-3-2] WARN  i.n.channel.DefaultChannelPipeline -An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NullPointerException: null
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelInactive(WebSocketTransport.java:151)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.codec.http.HttpContentEncoder.channelInactive(HttpContentEncoder.java:299)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:417)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:947)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:822)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:31:15.379 [nioEventLoopGroup-3-3] WARN  i.n.channel.DefaultChannelPipeline -An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NullPointerException: null
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelInactive(WebSocketTransport.java:151)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.codec.http.HttpContentEncoder.channelInactive(HttpContentEncoder.java:299)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:417)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:947)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:822)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:31:22.383 [nioEventLoopGroup-3-4] WARN  i.n.channel.DefaultChannelPipeline -An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NullPointerException: null
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelInactive(WebSocketTransport.java:151)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.codec.http.HttpContentEncoder.channelInactive(HttpContentEncoder.java:299)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:75)
+	at io.netty.handler.codec.MessageAggregator.channelInactive(MessageAggregator.java:417)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:377)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:342)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:224)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1429)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:245)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:231)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:947)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$8.run(AbstractChannel.java:822)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:31:40.766 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 09:31:41.496 [globalEventExecutor-1-1] ERROR c.c.socketio.SocketIOServer -SocketIO server start failed at port: 5004!
+2018-05-22 09:31:41.504 [main] ERROR o.s.boot.SpringApplication -Application startup failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:735)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at socketio.MessageHubApplication.main(MessageHubApplication.java:18)
+Caused by: io.netty.channel.ChannelException: Unable to create Channel from class class io.netty.channel.socket.nio.NioServerSocketChannel
+	at io.netty.channel.ReflectiveChannelFactory.newChannel(ReflectiveChannelFactory.java:40)
+	at io.netty.bootstrap.AbstractBootstrap.initAndRegister(AbstractBootstrap.java:319)
+	at io.netty.bootstrap.AbstractBootstrap.doBind(AbstractBootstrap.java:281)
+	at io.netty.bootstrap.AbstractBootstrap.bind(AbstractBootstrap.java:277)
+	at com.corundumstudio.socketio.SocketIOServer.startAsync(SocketIOServer.java:151)
+	at com.corundumstudio.socketio.SocketIOServer.start(SocketIOServer.java:123)
+	at socketio.service.MessageHubService.startServer(MessageHubService.java:99)
+	at socketio.service.MessageHubService.run(MessageHubService.java:63)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	... 6 common frames omitted
+Caused by: java.lang.NoSuchMethodError: io.netty.util.internal.PlatformDependent.newAtomicIntegerFieldUpdater(Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+	at io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:92)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.<init>(AbstractChannel.java:421)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.<init>(AbstractNioChannel.java:218)
+	at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.<init>(AbstractNioMessageChannel.java:58)
+	at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.<init>(AbstractNioMessageChannel.java:58)
+	at io.netty.channel.nio.AbstractNioMessageChannel.newUnsafe(AbstractNioMessageChannel.java:47)
+	at io.netty.channel.nio.AbstractNioMessageChannel.newUnsafe(AbstractNioMessageChannel.java:35)
+	at io.netty.channel.AbstractChannel.<init>(AbstractChannel.java:80)
+	at io.netty.channel.nio.AbstractNioChannel.<init>(AbstractNioChannel.java:84)
+	at io.netty.channel.nio.AbstractNioMessageChannel.<init>(AbstractNioMessageChannel.java:42)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:71)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at java.lang.Class.newInstance(Class.java:438)
+	at io.netty.channel.ReflectiveChannelFactory.newChannel(ReflectiveChannelFactory.java:38)
+	... 14 common frames omitted
+2018-05-22 09:32:25.623 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 09:32:26.293 [globalEventExecutor-1-1] ERROR c.c.socketio.SocketIOServer -SocketIO server start failed at port: 5004!
+2018-05-22 09:32:26.302 [main] ERROR o.s.boot.SpringApplication -Application startup failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:735)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at socketio.MessageHubApplication.main(MessageHubApplication.java:18)
+Caused by: io.netty.channel.ChannelException: Unable to create Channel from class class io.netty.channel.socket.nio.NioServerSocketChannel
+	at io.netty.channel.ReflectiveChannelFactory.newChannel(ReflectiveChannelFactory.java:40)
+	at io.netty.bootstrap.AbstractBootstrap.initAndRegister(AbstractBootstrap.java:319)
+	at io.netty.bootstrap.AbstractBootstrap.doBind(AbstractBootstrap.java:281)
+	at io.netty.bootstrap.AbstractBootstrap.bind(AbstractBootstrap.java:277)
+	at com.corundumstudio.socketio.SocketIOServer.startAsync(SocketIOServer.java:151)
+	at com.corundumstudio.socketio.SocketIOServer.start(SocketIOServer.java:123)
+	at socketio.service.MessageHubService.startServer(MessageHubService.java:99)
+	at socketio.service.MessageHubService.run(MessageHubService.java:63)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	... 6 common frames omitted
+Caused by: java.lang.NoSuchMethodError: io.netty.util.internal.PlatformDependent.newAtomicIntegerFieldUpdater(Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+	at io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:92)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.<init>(AbstractChannel.java:421)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.<init>(AbstractNioChannel.java:218)
+	at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.<init>(AbstractNioMessageChannel.java:58)
+	at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.<init>(AbstractNioMessageChannel.java:58)
+	at io.netty.channel.nio.AbstractNioMessageChannel.newUnsafe(AbstractNioMessageChannel.java:47)
+	at io.netty.channel.nio.AbstractNioMessageChannel.newUnsafe(AbstractNioMessageChannel.java:35)
+	at io.netty.channel.AbstractChannel.<init>(AbstractChannel.java:80)
+	at io.netty.channel.nio.AbstractNioChannel.<init>(AbstractNioChannel.java:84)
+	at io.netty.channel.nio.AbstractNioMessageChannel.<init>(AbstractNioMessageChannel.java:42)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:71)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at java.lang.Class.newInstance(Class.java:438)
+	at io.netty.channel.ReflectiveChannelFactory.newChannel(ReflectiveChannelFactory.java:38)
+	... 14 common frames omitted
+2018-05-22 09:32:46.403 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 09:32:47.067 [globalEventExecutor-1-1] ERROR c.c.socketio.SocketIOServer -SocketIO server start failed at port: 5004!
+2018-05-22 09:32:47.076 [main] ERROR o.s.boot.SpringApplication -Application startup failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:735)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:716)
+	at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:703)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at socketio.MessageHubApplication.main(MessageHubApplication.java:18)
+Caused by: io.netty.channel.ChannelException: Unable to create Channel from class class io.netty.channel.socket.nio.NioServerSocketChannel
+	at io.netty.channel.ReflectiveChannelFactory.newChannel(ReflectiveChannelFactory.java:40)
+	at io.netty.bootstrap.AbstractBootstrap.initAndRegister(AbstractBootstrap.java:319)
+	at io.netty.bootstrap.AbstractBootstrap.doBind(AbstractBootstrap.java:281)
+	at io.netty.bootstrap.AbstractBootstrap.bind(AbstractBootstrap.java:277)
+	at com.corundumstudio.socketio.SocketIOServer.startAsync(SocketIOServer.java:151)
+	at com.corundumstudio.socketio.SocketIOServer.start(SocketIOServer.java:123)
+	at socketio.service.MessageHubService.startServer(MessageHubService.java:99)
+	at socketio.service.MessageHubService.run(MessageHubService.java:63)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:732)
+	... 6 common frames omitted
+Caused by: java.lang.NoSuchMethodError: io.netty.util.internal.PlatformDependent.newAtomicIntegerFieldUpdater(Ljava/lang/Class;Ljava/lang/String;)Ljava/util/concurrent/atomic/AtomicIntegerFieldUpdater;
+	at io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:92)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.<init>(AbstractChannel.java:421)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.<init>(AbstractNioChannel.java:218)
+	at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.<init>(AbstractNioMessageChannel.java:58)
+	at io.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.<init>(AbstractNioMessageChannel.java:58)
+	at io.netty.channel.nio.AbstractNioMessageChannel.newUnsafe(AbstractNioMessageChannel.java:47)
+	at io.netty.channel.nio.AbstractNioMessageChannel.newUnsafe(AbstractNioMessageChannel.java:35)
+	at io.netty.channel.AbstractChannel.<init>(AbstractChannel.java:80)
+	at io.netty.channel.nio.AbstractNioChannel.<init>(AbstractNioChannel.java:84)
+	at io.netty.channel.nio.AbstractNioMessageChannel.<init>(AbstractNioMessageChannel.java:42)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:85)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.<init>(NioServerSocketChannel.java:71)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at java.lang.Class.newInstance(Class.java:438)
+	at io.netty.channel.ReflectiveChannelFactory.newChannel(ReflectiveChannelFactory.java:38)
+	... 14 common frames omitted
+2018-05-22 09:33:04.751 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 09:34:14.118 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 09:34:20.118 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|46762c8b-f1b7-4d30-a74c-b01a65ac0510
+2018-05-22 09:34:20.401 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|461042ec-ec8f-41e3-92b9-c98b8e8d80bd
+2018-05-22 09:35:40.264 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|b8a4fb34-a26f-43b1-babc-9f23eee2c72a
+2018-05-22 09:35:40.275 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|b8a4fb34-a26f-43b1-babc-9f23eee2c72a
+2018-05-22 09:36:48.481 [nioEventLoopGroup-3-1] WARN  socketio.service.MessageHubService -deleteQueue|handler|YangSir|{"poolName":"lane","messageKey":"86289ed9-5521-419a-a3f7-843adf2eae30"}
+2018-05-22 09:36:50.200 [nioEventLoopGroup-3-5] WARN  socketio.service.MessageHubService -deleteQueue|handler|YangSir|{"poolName":"lane","messageKey":"CN-RUILI-JICP1-LA01"}
+2018-05-22 09:36:50.214 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -null
+java.lang.NullPointerException: null
+	at socketio.util.PoolsUtil.poolToFrontPool(PoolsUtil.java:342)
+	at socketio.util.PoolsUtil.receivePoolInfo(PoolsUtil.java:125)
+	at socketio.service.MessageService$2.onData(MessageService.java:75)
+	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
+	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at com.corundumstudio.socketio.transport.PollingTransport.onPost(PollingTransport.java:162)
+	at com.corundumstudio.socketio.transport.PollingTransport.handleMessage(PollingTransport.java:121)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:98)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.handler.codec.MessageToMessageCodec.channelRead(MessageToMessageCodec.java:111)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:37:17.630 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -Connect|handler|8b646af2-d62e-44b9-a039-171a92d0cb7b
+2018-05-22 09:37:17.868 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -Connect|handler|e2e5edf3-1571-4614-b50f-a4abcd9e38ff
+2018-05-22 09:42:10.208 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 09:42:13.724 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:42:13.726 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|41ade389-f334-4018-a725-81639f99e9e2
+2018-05-22 09:42:13.735 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|41ade389-f334-4018-a725-81639f99e9e2
+2018-05-22 09:42:53.431 [nioEventLoopGroup-3-3] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:42:53.431 [nioEventLoopGroup-3-1] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:42:53.432 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|ff4daeef-ca57-44c3-9dd1-3b5fc403261d
+2018-05-22 09:42:53.432 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|4cb2f897-99f8-4edc-b1c4-900174c6cccc
+2018-05-22 09:42:53.433 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|ff4daeef-ca57-44c3-9dd1-3b5fc403261d
+2018-05-22 09:42:53.443 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|4cb2f897-99f8-4edc-b1c4-900174c6cccc
+2018-05-22 09:43:19.734 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:43:19.734 [nioEventLoopGroup-3-4] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:43:19.734 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|94cc1165-c106-4b8e-905e-6fe833059529
+2018-05-22 09:43:19.735 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|33eb525d-ebad-4ceb-b3bf-bcd52c587b07
+2018-05-22 09:43:19.735 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|94cc1165-c106-4b8e-905e-6fe833059529
+2018-05-22 09:43:19.744 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|33eb525d-ebad-4ceb-b3bf-bcd52c587b07
+2018-05-22 09:43:41.134 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:43:41.134 [nioEventLoopGroup-3-7] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:43:41.135 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|d76c2b65-a45f-4633-b08e-9a0c3e5f96d6
+2018-05-22 09:43:41.135 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disConnect|handler|e70e6f41-e626-484f-bd78-284879e76ef1
+2018-05-22 09:43:41.135 [nioEventLoopGroup-3-7] WARN  s.service.ConnectModuleService -disPoollisten|handel|e70e6f41-e626-484f-bd78-284879e76ef1
+2018-05-22 09:43:41.144 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|d76c2b65-a45f-4633-b08e-9a0c3e5f96d6
+2018-05-22 09:43:53.979 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|34a054f6-590a-417e-8749-0731cf97ad54
+2018-05-22 09:43:53.980 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|34a054f6-590a-417e-8749-0731cf97ad54
+2018-05-22 09:44:29.977 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|0763ac13-38d3-44e2-8077-95aa219f0aee
+2018-05-22 09:44:29.977 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|0763ac13-38d3-44e2-8077-95aa219f0aee
+2018-05-22 09:44:57.779 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|607399dd-8e02-4a8c-8313-a0996c5cb44f
+2018-05-22 09:44:57.779 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|607399dd-8e02-4a8c-8313-a0996c5cb44f
+2018-05-22 09:45:21.883 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:45:21.883 [nioEventLoopGroup-3-4] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:45:21.884 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|696327bc-8003-4480-8c98-27ada83d1300
+2018-05-22 09:45:21.884 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|9f18edf6-7b19-45de-a3e2-ece728421190
+2018-05-22 09:45:21.884 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|696327bc-8003-4480-8c98-27ada83d1300
+2018-05-22 09:45:21.896 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|9f18edf6-7b19-45de-a3e2-ece728421190
+2018-05-22 09:46:12.779 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|c7916fb1-7c11-491f-a1b5-fdda8f7fb50e
+2018-05-22 09:46:12.779 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|c7916fb1-7c11-491f-a1b5-fdda8f7fb50e
+2018-05-22 09:46:23.578 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|8a6653bf-e42f-4e6b-87bf-850b736d47a9
+2018-05-22 09:46:23.578 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|8a6653bf-e42f-4e6b-87bf-850b736d47a9
+2018-05-22 09:46:23.580 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|dae94401-3585-47f4-83e3-e0c9082e068a
+2018-05-22 09:46:23.589 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|dae94401-3585-47f4-83e3-e0c9082e068a
+2018-05-22 09:46:42.994 [nioEventLoopGroup-3-7] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:46:42.994 [nioEventLoopGroup-3-2] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:46:42.994 [nioEventLoopGroup-3-5] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:46:42.995 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|d0a3ca7c-adf8-46bd-a833-4dd08ab0f512
+2018-05-22 09:46:43.009 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|d0a3ca7c-adf8-46bd-a833-4dd08ab0f512
+2018-05-22 09:47:12.379 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|2937c33d-2e27-4800-801c-76db7c4c5c1a
+2018-05-22 09:47:12.380 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|2937c33d-2e27-4800-801c-76db7c4c5c1a
+2018-05-22 09:47:12.381 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|6168818d-789e-4d9a-bc78-7e752de8d81e
+2018-05-22 09:47:12.391 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|6168818d-789e-4d9a-bc78-7e752de8d81e
+2018-05-22 09:47:31.546 [nioEventLoopGroup-3-7] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:47:31.546 [nioEventLoopGroup-3-4] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:47:31.546 [nioEventLoopGroup-3-1] ERROR c.c.s.l.DefaultExceptionListener -远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:379)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 09:47:31.546 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|b7cd9d93-cbf4-41c1-bfc7-f8cb4e72dc46
+2018-05-22 09:47:31.566 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|b7cd9d93-cbf4-41c1-bfc7-f8cb4e72dc46
+2018-05-22 09:47:37.178 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|f141d22f-a752-46a2-914f-3508714c294a
+2018-05-22 09:47:37.178 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|f141d22f-a752-46a2-914f-3508714c294a
+2018-05-22 09:48:25.878 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|05509fcf-443b-42ba-89d5-106f1eaadf6a
+2018-05-22 09:48:25.878 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|05509fcf-443b-42ba-89d5-106f1eaadf6a
+2018-05-22 09:57:33.783 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|e7a86bf3-c7ff-4895-bd5e-d5031379e1c7
+2018-05-22 09:57:33.784 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|e7a86bf3-c7ff-4895-bd5e-d5031379e1c7
+2018-05-22 10:55:26.581 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 10:55:50.888 [nioEventLoopGroup-3-7] ERROR c.c.s.l.DefaultExceptionListener -java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+org.springframework.data.redis.RedisConnectionFailureException: java.net.SocketTimeoutException: Read timed out; nested exception is redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:67)
+	at org.springframework.data.redis.connection.jedis.JedisExceptionConverter.convert(JedisExceptionConverter.java:41)
+	at org.springframework.data.redis.PassThroughExceptionTranslationStrategy.translate(PassThroughExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.FallbackExceptionTranslationStrategy.translate(FallbackExceptionTranslationStrategy.java:37)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.convertJedisAccessException(JedisConnection.java:241)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.publish(JedisConnection.java:3133)
+	at org.springframework.data.redis.connection.DefaultStringRedisConnection.publish(DefaultStringRedisConnection.java:640)
+	at org.springframework.data.redis.core.RedisTemplate$9.doInRedis(RedisTemplate.java:707)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:207)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:169)
+	at org.springframework.data.redis.core.RedisTemplate.convertAndSend(RedisTemplate.java:704)
+	at socketio.util.RedisUtil.Publish(RedisUtil.java:57)
+	at socketio.util.PoolsUtil.update(PoolsUtil.java:74)
+	at socketio.util.PoolsUtil.createPool(PoolsUtil.java:201)
+	at socketio.service.PoolModuleService$3.onData(PoolModuleService.java:73)
+	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
+	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelRead(WebSocketTransport.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:110)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: Read timed out
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:202)
+	at redis.clients.util.RedisInputStream.readByte(RedisInputStream.java:40)
+	at redis.clients.jedis.Protocol.process(Protocol.java:151)
+	at redis.clients.jedis.Protocol.read(Protocol.java:215)
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:340)
+	at redis.clients.jedis.Connection.getIntegerReply(Connection.java:265)
+	at redis.clients.jedis.BinaryJedis.publish(BinaryJedis.java:3064)
+	at org.springframework.data.redis.connection.jedis.JedisConnection.publish(JedisConnection.java:3131)
+	... 66 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:150)
+	at java.net.SocketInputStream.read(SocketInputStream.java:121)
+	at java.net.SocketInputStream.read(SocketInputStream.java:107)
+	at redis.clients.util.RedisInputStream.ensureFill(RedisInputStream.java:196)
+	... 73 common frames omitted
+2018-05-22 10:56:30.698 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 10:58:30.800 [main] ERROR socketio.util.PoolsUtil -初始化从Redis中读取Pools数据出错
+2018-05-22 10:58:32.149 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 10:58:38.017 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|6d99c799-33d7-4044-956d-60c64f08bbbe
+2018-05-22 10:58:38.018 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|6d99c799-33d7-4044-956d-60c64f08bbbe
+2018-05-22 11:38:44.444 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|c7d76411-7158-4ed2-8d9c-1afb4790c71a
+2018-05-22 11:38:44.451 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|c7d76411-7158-4ed2-8d9c-1afb4790c71a
+2018-05-22 11:48:21.228 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:04:48.888 [nioEventLoopGroup-3-5] WARN  socketio.service.PoolModuleService -destroyPool|handler|{9aee8ed3-3f5c-460d-b301-3633f3fc0c6c=socketio.model.Connection.Connection@17fae18}|9aee8ed3-3f5c-460d-b301-3633f3fc0c6c|JobQueue
+2018-05-22 12:05:00.376 [nioEventLoopGroup-3-5] WARN  socketio.service.PoolModuleService -destroyPool|handler|{9aee8ed3-3f5c-460d-b301-3633f3fc0c6c=socketio.model.Connection.Connection@17fae18}|9aee8ed3-3f5c-460d-b301-3633f3fc0c6c|123123
+2018-05-22 12:05:05.080 [nioEventLoopGroup-3-5] WARN  socketio.service.PoolModuleService -destroyPool|handler|{9aee8ed3-3f5c-460d-b301-3633f3fc0c6c=socketio.model.Connection.Connection@17fae18}|9aee8ed3-3f5c-460d-b301-3633f3fc0c6c|123123
+2018-05-22 12:05:07.238 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disConnect|handler|9aee8ed3-3f5c-460d-b301-3633f3fc0c6c
+2018-05-22 12:05:07.242 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -disPoollisten|handel|9aee8ed3-3f5c-460d-b301-3633f3fc0c6c
+2018-05-22 12:05:13.063 [nioEventLoopGroup-3-5] WARN  socketio.service.PoolModuleService -destroyPool|handler|{954385bb-aa38-43bc-bee9-c48f47510d2d=socketio.model.Connection.Connection@1ea3ac7}|954385bb-aa38-43bc-bee9-c48f47510d2d|123123
+2018-05-22 12:05:21.201 [nioEventLoopGroup-3-5] WARN  socketio.service.PoolModuleService -destroyPool|handler|{954385bb-aa38-43bc-bee9-c48f47510d2d=socketio.model.Connection.Connection@1ea3ac7}|954385bb-aa38-43bc-bee9-c48f47510d2d|123123
+2018-05-22 12:05:48.836 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:05:56.704 [nioEventLoopGroup-3-6] WARN  socketio.service.PoolModuleService -destroyPool|handler|{0116894e-ae0c-4cd3-813f-b7a97dd1fda9=socketio.model.Connection.Connection@ea8727}|0116894e-ae0c-4cd3-813f-b7a97dd1fda9|123123
+2018-05-22 12:06:12.553 [nioEventLoopGroup-3-6] WARN  socketio.service.PoolModuleService -destroyPool|handler|{0116894e-ae0c-4cd3-813f-b7a97dd1fda9=socketio.model.Connection.Connection@ea8727}|0116894e-ae0c-4cd3-813f-b7a97dd1fda9|123123123
+2018-05-22 12:06:19.864 [nioEventLoopGroup-3-6] WARN  socketio.service.PoolModuleService -destroyPool|handler|{0116894e-ae0c-4cd3-813f-b7a97dd1fda9=socketio.model.Connection.Connection@ea8727}|0116894e-ae0c-4cd3-813f-b7a97dd1fda9|123123
+2018-05-22 12:06:23.880 [nioEventLoopGroup-3-6] WARN  socketio.service.PoolModuleService -destroyPool|handler|{0116894e-ae0c-4cd3-813f-b7a97dd1fda9=socketio.model.Connection.Connection@ea8727}|0116894e-ae0c-4cd3-813f-b7a97dd1fda9|123123
+2018-05-22 12:06:23.887 [nioEventLoopGroup-3-6] ERROR c.c.s.l.DefaultExceptionListener -null
+java.lang.NullPointerException: null
+	at socketio.util.PoolsUtil.poolToFrontPool(PoolsUtil.java:343)
+	at socketio.util.PoolsUtil.receivePoolInfo(PoolsUtil.java:126)
+	at socketio.service.PoolModuleService$5.onData(PoolModuleService.java:97)
+	at com.corundumstudio.socketio.namespace.Namespace.onEvent(Namespace.java:143)
+	at com.corundumstudio.socketio.handler.PacketListener.onPacket(PacketListener.java:103)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:92)
+	at com.corundumstudio.socketio.handler.InPacketHandler.channelRead0(InPacketHandler.java:36)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:271)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at com.corundumstudio.socketio.transport.WebSocketTransport.channelRead(WebSocketTransport.java:94)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.transport.PollingTransport.channelRead(PollingTransport.java:110)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at com.corundumstudio.socketio.handler.AuthorizeHandler.channelRead(AuthorizeHandler.java:134)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:108)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:350)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:372)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:358)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:129)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-22 12:06:59.459 [main] ERROR socketio.util.PoolsUtil -初始化从Redis中读取Pools数据出错
+2018-05-22 12:07:00.796 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:07:05.093 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|c92d0589-539a-4b02-b263-f521f5cc3f0b
+2018-05-22 12:07:05.094 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|c92d0589-539a-4b02-b263-f521f5cc3f0b
+2018-05-22 12:08:41.088 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:08:57.544 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|06373013-c025-4490-936b-24727004e95a
+2018-05-22 12:08:57.545 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|06373013-c025-4490-936b-24727004e95a
+2018-05-22 12:09:20.046 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disConnect|handler|9daa8706-ff02-48c0-a7b8-de5ade8ef825
+2018-05-22 12:09:20.048 [nioEventLoopGroup-3-6] WARN  s.service.ConnectModuleService -disPoollisten|handel|9daa8706-ff02-48c0-a7b8-de5ade8ef825
+2018-05-22 12:09:57.640 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:11:05.318 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:11:46.819 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:13:10.946 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:13:40.422 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:15:43.758 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:33:06.953 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2018-05-22 12:33:10.658 [main] WARN  socketio.service.MessageHubService -��Ϣ�������ɹ�
+2018-05-22 12:35:26.840 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 12:37:12.594 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|8b30c712-484c-4347-aa33-6f9372e5def6
+2018-05-22 12:37:12.595 [pool-2-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|8b30c712-484c-4347-aa33-6f9372e5def6
+2018-05-22 13:06:20.964 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disConnect|handler|6a3b733a-4c1e-4622-bc45-97fbc0a0c8dd
+2018-05-22 13:06:20.971 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|6a3b733a-4c1e-4622-bc45-97fbc0a0c8dd
+2018-05-22 15:24:41.280 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 15:28:58.225 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 15:30:02.295 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?)
+ at [Source: java.io.PushbackInputStream@19f4faf; line: 2, column: 3]
+2018-05-22 15:31:10.771 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 15:31:11.862 [http-nio-8081-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?)
+ at [Source: java.io.PushbackInputStream@1a3036d; line: 2, column: 3]
+2018-05-22 15:31:43.051 [http-nio-8081-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?)
+ at [Source: java.io.PushbackInputStream@d340da; line: 2, column: 3]
+2018-05-22 15:33:00.531 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 15:33:05.292 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?)
+ at [Source: java.io.PushbackInputStream@18f5e3c; line: 2, column: 3]
+2018-05-22 15:36:21.028 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 15:36:27.571 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: private socketio.model.bean.Response socketio.controller.ClientApiController.deleteQueue(socketio.model.Message.MessageUpdate)
+2018-05-22 15:38:11.273 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 15:38:31.309 [http-nio-8081-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Can not construct instance of socketio.model.Message.P2pMessage: no suitable constructor found, can not deserialize from Object value (missing default constructor or creator, or perhaps need to add/enable type information?)
+ at [Source: java.io.PushbackInputStream@fb68c4; line: 2, column: 3]
+2018-05-22 15:39:08.476 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 15:40:39.002 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2018-05-22 15:40:42.350 [main] WARN  socketio.service.MessageHubService -��Ϣ�������ɹ�
+2018-05-22 16:38:18.721 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 16:39:47.823 [http-nio-8081-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+ at [Source: java.io.PushbackInputStream@517ba7; line: 2, column: 13]; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+ at [Source: java.io.PushbackInputStream@517ba7; line: 2, column: 13]
+ at [Source: java.io.PushbackInputStream@517ba7; line: 2, column: 10] (through reference chain: socketio.model.Message.P2pMessage["msg"])
+2018-05-22 16:40:03.878 [http-nio-8081-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Can not deserialize instance of java.lang.String out of START_OBJECT token; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Can not deserialize instance of java.lang.String out of START_OBJECT token
+ at [Source: java.io.PushbackInputStream@1046fa8; line: 2, column: 10] (through reference chain: socketio.model.Message.P2pMessage["msg"])
+2018-05-22 16:40:35.230 [http-nio-8081-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+ at [Source: java.io.PushbackInputStream@1a3d23d; line: 2, column: 13]; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Illegal unquoted character ((CTRL-CHAR, code 10)): has to be escaped using backslash to be included in string value
+ at [Source: java.io.PushbackInputStream@1a3d23d; line: 2, column: 13]
+ at [Source: java.io.PushbackInputStream@1a3d23d; line: 2, column: 10] (through reference chain: socketio.model.Message.P2pMessage["msg"])
+2018-05-22 16:49:03.547 [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@1d60d3a; line: 2, column: 14]
+2018-05-22 16:49:08.717 [http-nio-8081-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('"' (code 34)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@cdff00; line: 2, column: 14]
+2018-05-22 17:03:06.277 [http-nio-8081-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('c' (code 99)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('c' (code 99)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@bb239b; line: 2, column: 14]
+2018-05-22 17:06:42.384 [http-nio-8081-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver -Failed to read HTTP message: org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('1' (code 49)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@1c5635c; line: 6, column: 17]; nested exception is com.fasterxml.jackson.databind.JsonMappingException: Unexpected character ('1' (code 49)): was expecting comma to separate Object entries
+ at [Source: java.io.PushbackInputStream@1c5635c; line: 6, column: 17]
+ at [Source: java.io.PushbackInputStream@1c5635c; line: 6, column: 14] (through reference chain: socketio.model.Message.MessageCreate["message"])
+2018-05-22 17:08:43.717 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 17:09:41.539 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 17:11:36.710 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 17:12:20.303 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 17:17:29.912 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 17:18:38.241 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 17:21:14.497 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-05-22 17:23:40.341 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2018-05-22 17:23:44.247 [main] WARN  socketio.service.MessageHubService -��Ϣ�������ɹ�
+2018-05-22 17:26:03.103 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2018-05-22 17:26:06.506 [main] WARN  socketio.service.MessageHubService -��Ϣ�������ɹ�
+2018-05-22 18:01:12.357 [main] WARN  socketio.service.MessageHubService -消息服务开启成功

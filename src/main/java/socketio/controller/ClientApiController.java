@@ -6,19 +6,12 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import socketio.client.SocketClient;
 import socketio.model.Message.MessageCreate;
 import socketio.model.Message.MessageUpdate;
 import socketio.model.Message.P2pMessage;
-import socketio.model.Pool.Pool;
-import socketio.model.Pool.PoolClone;
-import socketio.model.Pool.PoolCreate;
 import socketio.model.bean.*;
 import socketio.model.Message.Message;
-import socketio.service.MessageService;
-import socketio.service.P2pService;
 import socketio.util.*;
 
 import java.time.LocalDateTime;
@@ -90,8 +83,8 @@ public class ClientApiController {
     private  Response p2pMessage(@RequestBody P2pMessage message){
         try {
             //redisUtil.Publish(message.getReciver(), message.getMsg());
-            messagehubUtil.eventBoardCast(message.getReciver(),message.getMsg());
-            redisUtil.Publish(message.getReciver(),message.getMsg());
+            messagehubUtil.eventBoardCast(message.getReceiver(),message.getMsg());
+            redisUtil.Publish(message.getReceiver(),message.getMsg());
             return ResponseUtil.Sucess("sendP2pMessage","发送p2p消息成功",message);
         }catch (Exception ex)
         {
