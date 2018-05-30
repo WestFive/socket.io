@@ -339,7 +339,7 @@ public class PoolsUtil {
     public FrontPool poolToFrontPool(Pool pool){
 
         Map<String,Message> messages = sortMapByValue(pool.getMessages());
-        Map<String,Message> messages2 = pool.getMessages();
+        //Map<String,Message> messages2 = pool.getMessages();
         return new FrontPool(pool.getPoolName(),pool.getPoolMode(),pool.getDescription(),messages.values(),pool.getMessageSortColumn(),pool.getCreator(),pool.getCreateTime(),pool.getUpdateTime(),(HashSet<UUID>)pool.getClients());
     }
 
@@ -348,7 +348,7 @@ public class PoolsUtil {
     //排序
     public static Map<String, Message> sortMapByValue(Map<String,Message> oriMap) {
         if (oriMap == null || oriMap.isEmpty()) {
-            return null;
+            return oriMap;//空直接返回
         }
         Map<String, Message> sortedMap = new LinkedHashMap<String, Message>();
         List<Map.Entry<String, Message>> entryList = new ArrayList<Map.Entry<String, Message>>(
