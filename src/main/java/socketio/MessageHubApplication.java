@@ -12,6 +12,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 @EnableCaching
+//@EnableDiscoveryClient
 public class MessageHubApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {

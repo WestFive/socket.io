@@ -16,4 +16,9 @@ messagehub:
   pool:
     maxqueuecount: 5
 
+#  client:
+#        service-url:
+#            defaultZone: http://admin:admin@10.1.1.121:8761/eureka/
+
+
 

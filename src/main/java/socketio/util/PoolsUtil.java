@@ -7,6 +7,7 @@ import com.google.gson.reflect.TypeToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Component;
 import socketio.model.Connection.ConnectionCreate;
 import socketio.model.Pool.Pool;
@@ -64,6 +65,7 @@ public class PoolsUtil {
     CountsCheck countsCheck;
 
     public void update(String poolName,Pool pool){
+
         Pool newpool = countsCheck.trySplit(poolName);
         if(newpool!=null)
         {
@@ -299,7 +301,9 @@ public class PoolsUtil {
 
         try {
             if(!isConnected(uuid,ackRequest)){return false;}
-
+            if(!PoolsMap.containsKey(poolName)){
+                ackRequest.sendAckData(ResponseUtil.Error("找不到该池", new ChangeSetPersister.NotFoundException()));
+                return false;}
             if (PoolsUtil.PoolsMap.get(poolName).getPoolMode().equals("privateMode")) {
                 if (PoolsUtil.PoolsMap.get(poolName).getCreator().equals(ConnectionCache.connectionMap.get(uuid.toString()).getClientName()) == false) {
                     ackRequest.sendAckData(ResponseUtil.Error("isReadOnly", "无权限写入的私有池", 500, poolName));
@@ -311,8 +315,8 @@ public class PoolsUtil {
                 return true;
             }
         } catch (Exception ex) {
-            ackRequest.sendAckData(ResponseUtil.Error("服务器出错",ex));
-            return false;
+            //ackRequest.sendAckData(ResponseUtil.Error("服务器出错",ex));
+            return true;
         }
     }
 

@@ -1,0 +1,24 @@
+2018-06-06 14:44:56.581 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2018-06-06 14:45:01.049 [main] WARN  socketio.service.MessageHubService -ÏûÏ¢·şÎñ³¢ÊÔ¿ªÆô
+2018-06-06 14:45:01.150 [main] WARN  socketio.service.MessageHubService -ÏûÏ¢·şÎñ¿ªÆô³É¹¦
+2018-06-06 14:49:06.860 [main] WARN  socketio.service.MessageHubService -æ¶ˆæ¯æœåŠ¡å°è¯•å¼€å¯
+2018-06-06 14:49:06.925 [main] WARN  socketio.service.MessageHubService -æ¶ˆæ¯æœåŠ¡å¼€å¯æˆåŠŸ
+2018-06-06 14:49:32.186 [main] WARN  o.s.b.t.j.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer -
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/%e5%b9%b3%e6%96%b9%e7%a7%91%e6%8a%80/.m2/repository/org/json/json/20140107/json-20140107.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behaviour
+
+2018-06-06 14:49:36.271 [main] WARN  socketio.service.MessageHubService -ÏûÏ¢·şÎñ³¢ÊÔ¿ªÆô
+2018-06-06 14:49:36.352 [main] WARN  socketio.service.MessageHubService -ÏûÏ¢·şÎñ¿ªÆô³É¹¦
