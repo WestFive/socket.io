@@ -30,3 +30,19 @@
 2018-06-08 09:40:15.429 [main] WARN  socketio.service.MessageHubService -消息服务尝试开启
 2018-06-08 09:40:15.478 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
 2018-06-08 09:40:16.801 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|f5c13fd3-0412-4270-b508-22e6e80b4e98
+2018-06-08 09:58:01.995 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:58:03.291 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+2018-06-08 09:58:03.292 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:58:04.519 [main] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration -spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-06-08 09:58:04.631 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'routesEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:58:04.649 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'filtersEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:58:05.988 [main] WARN  socketio.service.MessageHubService -消息服务尝试开启
+2018-06-08 09:58:06.037 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-06-08 09:58:33.166 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|15ac21e9-4c01-49ed-bc7c-0c97a19b816e
+2018-06-08 09:58:40.628 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|15ac21e9-4c01-49ed-bc7c-0c97a19b816e
+2018-06-08 09:58:40.629 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|15ac21e9-4c01-49ed-bc7c-0c97a19b816e
+2018-06-08 09:58:50.610 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|04c72a58-016b-418b-a115-f1807a426a71
+2018-06-08 09:59:24.638 [nioEventLoopGroup-3-4] WARN  socketio.service.MessageHubService -deleteQueue|handler|YangSir|{"poolName":"jobQueue","messageKey":"stringjobQueue"}
+2018-06-08 09:59:37.821 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|54001d50-56ab-416c-a7f1-436301d3afb3
+2018-06-08 10:09:30.222 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|04c72a58-016b-418b-a115-f1807a426a71
+2018-06-08 10:09:30.234 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|04c72a58-016b-418b-a115-f1807a426a71
