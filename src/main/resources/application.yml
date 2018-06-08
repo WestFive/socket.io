@@ -16,9 +16,29 @@ messagehub:
   pool:
     maxqueuecount: 5
 
-#  client:
-#        service-url:
-#            defaultZone: http://admin:admin@10.1.1.121:8761/eureka/
+
+eureka:
+  client:
+    enabled: true
+    service-url:
+      defaultZone: http://admin:admin@10.1.1.114:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    appname: MessageHub
+    instanceId: MessageHub:${spring.application.instance-id:${random.value}}
+    prefer-ip-address: true
+
+zuul: # those values must be configured depending on the application specific needs
+    host:
+        max-total-connections: 1000
+        max-per-route-connections: 100
+    semaphore:
+        max-semaphores: 500
+
+
+
+
 
 
 
