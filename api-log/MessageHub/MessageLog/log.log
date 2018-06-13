@@ -1,9 +1,48 @@
-2018-05-30 14:54:44.719 [main] WARN  socketio.service.MessageHubService -消息服务尝试开启
-2018-05-30 14:54:44.770 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-05-30 14:55:07.457 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|8cd48932-da44-4ac3-b1a5-fde78bbfae07
-2018-05-30 14:57:36.193 [main] WARN  socketio.service.MessageHubService -消息服务尝试开启
-2018-05-30 14:57:36.237 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
-2018-05-30 14:57:37.092 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|908119a8-241a-410a-95be-1c452931f76a
-2018-05-30 14:57:41.185 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disConnect|handler|908119a8-241a-410a-95be-1c452931f76a
-2018-05-30 14:57:41.186 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -disPoollisten|handel|908119a8-241a-410a-95be-1c452931f76a
-2018-05-30 14:57:44.618 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -Connect|handler|f2870b50-e8af-4ff5-9537-5b11e31f1b65
+2018-06-08 09:13:49.099 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:13:50.098 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+2018-06-08 09:13:50.099 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:13:51.322 [main] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration -spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-06-08 09:13:51.442 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'routesEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:13:51.461 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'filtersEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:13:52.742 [main] WARN  socketio.service.MessageHubService -消息服务尝试开启
+2018-06-08 09:13:52.787 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-06-08 09:20:24.669 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|1b616d8e-49eb-4616-b240-bf01ea28179f
+2018-06-08 09:21:49.709 [pool-10-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|1b616d8e-49eb-4616-b240-bf01ea28179f
+2018-06-08 09:21:49.725 [pool-10-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|1b616d8e-49eb-4616-b240-bf01ea28179f
+2018-06-08 09:36:34.690 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:36:35.767 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+2018-06-08 09:36:35.768 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:36:36.992 [main] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration -spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-06-08 09:36:37.116 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'routesEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:36:37.136 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'filtersEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:36:38.478 [main] WARN  socketio.service.MessageHubService -消息服务尝试开启
+2018-06-08 09:36:38.519 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-06-08 09:36:51.635 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|fc4eac0b-98e3-4c3e-9bcc-654858d48882
+2018-06-08 09:37:06.418 [nioEventLoopGroup-3-5] WARN  s.service.ConnectModuleService -Connect|handler|ff74c988-6433-4aad-8af6-9800f97b9c9e
+2018-06-08 09:38:17.141 [pool-9-thread-1] WARN  s.service.ConnectModuleService -disConnect|handler|fc4eac0b-98e3-4c3e-9bcc-654858d48882
+2018-06-08 09:38:17.143 [pool-9-thread-1] WARN  s.service.ConnectModuleService -disPoollisten|handel|fc4eac0b-98e3-4c3e-9bcc-654858d48882
+2018-06-08 09:40:11.762 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:40:12.735 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+2018-06-08 09:40:12.736 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:40:13.858 [main] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration -spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-06-08 09:40:13.980 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'routesEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:40:14.000 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'filtersEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:40:15.429 [main] WARN  socketio.service.MessageHubService -消息服务尝试开启
+2018-06-08 09:40:15.478 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-06-08 09:40:16.801 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|f5c13fd3-0412-4270-b508-22e6e80b4e98
+2018-06-08 09:58:01.995 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:58:03.291 [main] WARN  o.s.c.n.a.ArchaiusAutoConfiguration -No spring.application.name found, defaulting to 'application'
+2018-06-08 09:58:03.292 [main] WARN  c.n.c.sources.URLConfigurationSource -No URLs will be polled as dynamic configuration sources.
+2018-06-08 09:58:04.519 [main] WARN  o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration -spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2018-06-08 09:58:04.631 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'routesEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:58:04.649 [main] WARN  o.s.j.e.a.AnnotationMBeanExporter -Bean with key 'filtersEndpoint' has been registered as an MBean but has no exposed attributes or operations
+2018-06-08 09:58:05.988 [main] WARN  socketio.service.MessageHubService -消息服务尝试开启
+2018-06-08 09:58:06.037 [main] WARN  socketio.service.MessageHubService -消息服务开启成功
+2018-06-08 09:58:33.166 [nioEventLoopGroup-3-1] WARN  s.service.ConnectModuleService -Connect|handler|15ac21e9-4c01-49ed-bc7c-0c97a19b816e
+2018-06-08 09:58:40.628 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disConnect|handler|15ac21e9-4c01-49ed-bc7c-0c97a19b816e
+2018-06-08 09:58:40.629 [nioEventLoopGroup-3-2] WARN  s.service.ConnectModuleService -disPoollisten|handel|15ac21e9-4c01-49ed-bc7c-0c97a19b816e
+2018-06-08 09:58:50.610 [nioEventLoopGroup-3-3] WARN  s.service.ConnectModuleService -Connect|handler|04c72a58-016b-418b-a115-f1807a426a71
+2018-06-08 09:59:24.638 [nioEventLoopGroup-3-4] WARN  socketio.service.MessageHubService -deleteQueue|handler|YangSir|{"poolName":"jobQueue","messageKey":"stringjobQueue"}
+2018-06-08 09:59:37.821 [nioEventLoopGroup-3-8] WARN  s.service.ConnectModuleService -Connect|handler|54001d50-56ab-416c-a7f1-436301d3afb3
+2018-06-08 10:09:30.222 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disConnect|handler|04c72a58-016b-418b-a115-f1807a426a71
+2018-06-08 10:09:30.234 [nioEventLoopGroup-3-4] WARN  s.service.ConnectModuleService -disPoollisten|handel|04c72a58-016b-418b-a115-f1807a426a71

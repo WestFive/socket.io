@@ -1,0 +1,3 @@
+2018-06-05 12:46:15.651 [main] ERROR socketio.util.PoolsUtil -初始化从Redis中读取Pools数据出错
+2018-06-05 12:51:14.184 [main] ERROR socketio.util.PoolsUtil -初始化从Redis中读取Pools数据出错
+2018-06-05 12:59:57.057 [main] ERROR socketio.util.PoolsUtil -初始化从Redis中读取Pools数据出错
