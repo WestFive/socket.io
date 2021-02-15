@@ -1,0 +1,125 @@
+{
+    "app": {
+        "name": "Cortex",
+        "description": "Cortex Framework"
+    },
+    "user": {
+        "name": "Admin",
+        "avatar": "./assets/img/zorro.svg",
+        "email": "Admin@cortex.com"
+    },
+    "menu": [
+        {
+            "text": "主导航",
+            "translate": "主导航",
+            "group": true,
+            "children": [
+                {
+                    "text": "消息服务控制台",
+                    "translate": "消息服务控制台",
+                    "icon": "icon-speedometer",
+                    "link": "/dashboard/messagehub"
+                },
+                {
+                    "text": "会话列表",
+                    "translate": "会话列表",
+                    "icon": "icon-speedometer",
+                    "link": "/dashboard/connect"
+                }
+            ]
+        }
+    ],
+    "sites": [
+        {
+            "id": 1,
+            "companyId": 1,
+            "siteCode": "ABC",
+            "siteName": "ABC公司",
+            "description": "ABC公司",
+            "createdBy": "Admin",
+            "createdTime": "2018-01-01 00:00:00",
+            "lastModifiedBy": "Admin",
+            "lastModifiedTime": "2018-01-01 00:00:00"
+        },
+        {
+            "id": 2,
+            "companyId": 1,
+            "siteCode": "DEF",
+            "siteName": "DEF公司",
+            "description": "DEF公司",
+            "createdBy": "Admin",
+            "createdTime": "2018-01-01 00:00:00",
+            "lastModifiedBy": "Admin",
+            "lastModifiedTime": "2018-01-01 00:00:00"
+        },
+        {
+            "id": 3,
+            "companyId": 2,
+            "siteCode": "GHI",
+            "siteName": "GHI公司",
+            "description": "GHI公司",
+            "createdBy": "Admin",
+            "createdTime": "2018-01-01 00:00:00",
+            "lastModifiedBy": "Admin",
+            "lastModifiedTime": "2018-01-01 00:00:00"
+        },
+        {
+            "id": 4,
+            "companyId": 2,
+            "siteCode": "JKL",
+            "siteName": "JKL公司",
+            "description": "JKL公司",
+            "createdBy": "Admin",
+            "createdTime": "2018-01-01 00:00:00",
+            "lastModifiedBy": "Admin",
+            "lastModifiedTime": "2018-01-01 00:00:00"
+        }
+    ],
+    "roles": [
+        {
+            "id": 1,
+            "roleName": "系统管理员",
+            "description": "",
+            "createdBy": "Admin",
+            "createdTime": "2018-01-01 00:00:00",
+            "lastModifiedBy": "Admin",
+            "lastModifiedTime": "2018-01-01 00:00:00"
+        },
+        {
+            "id": 1,
+            "roleName": "操作员",
+            "description": "",
+            "createdBy": "Admin",
+            "createdTime": "2018-01-01 00:00:00",
+            "lastModifiedBy": "Admin",
+            "lastModifiedTime": "2018-01-01 00:00:00"
+        },
+        {
+            "id": 1,
+            "roleName": "单证员",
+            "description": "",
+            "createdBy": "Admin",
+            "createdTime": "2018-01-01 00:00:00",
+            "lastModifiedBy": "Admin",
+            "lastModifiedTime": "2018-01-01 00:00:00"
+        },
+        {
+            "id": 1,
+            "roleName": "客服",
+            "description": "",
+            "createdBy": "Admin",
+            "createdTime": "2018-01-01 00:00:00",
+            "lastModifiedBy": "Admin",
+            "lastModifiedTime": "2018-01-01 00:00:00"
+        },
+        {
+            "id": 1,
+            "roleName": "售后",
+            "description": "",
+            "createdBy": "Admin",
+            "createdTime": "2018-01-01 00:00:00",
+            "lastModifiedBy": "Admin",
+            "lastModifiedTime": "2018-01-01 00:00:00"
+        }
+    ]
+}
